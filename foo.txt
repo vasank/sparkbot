@@ -1,0 +1,2746 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<!-- $Revision: 1.72 $ -->
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraphprotocol.org/schema/">
+<head>
+<script>var cdcPageTimers = {topOfHead: new Date()};</script>
+<style>
+        .deferredLoad {
+           background:url(/web/fw/i/spinner.gif) no-repeat  center;
+           height:50px;
+        }
+    </style>
+<title>Cisco Systems</title>
+<link href="/web/fw/c/cisco_base.css" rel="stylesheet" type="text/css"/>
+<link href="/web/fw/c/masterbrand.min.css" rel="stylesheet" type="text/css"/>
+<link href="/web/fw/w/cl/cl.min.css" rel="stylesheet" type="text/css"/>
+<script src="/web/fw/j/masterbrand.min.js" type="text/javascript"></script>
+<link href="/web/tsweb/searchplugins/cdc_search.xml" rel="search" title="Search Cisco.com" type="application/opensearchdescription+xml"/>
+<script type="text/javascript">
+
+
+    if (typeof(cdc) == "undefined") cdc = new Object();
+    if (typeof(cdc.local) == "undefined") cdc.local = new Object();
+    if (typeof(cdc.local.wpx) == "undefined") cdc.local.wpx = new Object();
+
+    cdc.local.wpx.BACKPACK_MYCISCO_LINKTEXT           = 'My Cisco';
+    cdc.local.wpx.BACKPACK_MYCISCO_TOOLTIP            = 'Click the arrow to open and close the My Cisco Menu.';
+    cdc.local.wpx.BACKPACK_DISCOVERY_TOOLTIP          = 'Click the arrow to open and close the My Cisco Menu. ';
+    cdc.local.wpx.BACKPACK_CLICK_TO_CLOSE             = 'Click to close.';
+    cdc.local.wpx.BACKPACK_TIMEOUT_TITLE              = 'My Cisco is not loading.';
+    cdc.local.wpx.BACKPACK_TIMEOUT_BLOB_HTML          = '<p>To load My Cisco, try the Reload button in your browser.</p><br/><p>If the problem persists, please contact <a href=\"http://www.cisco.com/go/myciscofeedback\">Cisco Customer Support</a>.</p>';
+    cdc.local.wpx.BACKPACK_SYSTEM_ERROR_BUTTON_TEXT   = 'OK';
+    cdc.local.wpx.BACKPACK_SYSTEM_ERROR_TITLE         = 'My Cisco System Error';
+    cdc.local.wpx.BACKPACK_SYSTEM_ERROR_TEXT          = 'Try again later; if the problem persists, contact <a href=\"http://www.cisco.com/go/myciscofeedback\">Cisco Customer Support</a>.';
+    cdc.local.wpx.BACKPACK_SYSTEM_WARNING_BUTTON_TEXT = 'OK';
+    cdc.local.wpx.BACKPACK_SYSTEM_WARNING_TITLE       = 'My Cisco System Warning';
+    cdc.local.wpx.BACKPACK_SYSTEM_WARNING_TEXT        = 'Try again later; if the problem persists, contact <a href=\"http://www.cisco.com/go/myciscofeedback\">Cisco Customer Support</a>.';
+    cdc.local.wpx.WEBEX_SPACES_WARNING_ADDING_FILE    = 'Adding a file with the same name will replace the original.';
+    cdc.local.wpx.BACKPACK_DISCOVERY_CLICK_MESSAGE    = 'Click to open.';
+
+
+    cdc.util.useBackpack=true;
+
+    if (typeof (cdc.page) == "undefined") cdc.page = {};
+    cdc.page.localeString = "en_US";
+
+
+
+    cdc.util.ensureNamespace('cdc.local.wpx');
+
+    cdc.local.wpx.LOGOUT_MODAL_TITLE='Log Out';
+
+
+    cdc.local.wpx.LOGOUT_MODAL_QUERY='You are about to log out of Cisco.com.<br />If your task is incomplete, please click Cancel to finish or save.';
+
+
+    cdc.local.wpx.LOGOUT_YES_BUTTON_TEXT='Log Out ';
+
+
+    cdc.local.wpx.LOGOUT_NO_BUTTON_TEXT='Cancel';
+
+
+    cdc.local.wpx.COOKIE_INFORMER_MESSAGE='';
+
+
+    cdc.local.wpx.COOKIE_INFORMER_BUTTON_TITLE='';
+
+    
+      jQuery(function(){
+         jQuery('.deferredLoad').each(function(){
+            var n = this;
+            var u = jQuery('a',n).attr('href');
+            jQuery.get(u,function(data){
+               n = jQuery(n);
+               n.html(data);
+               n.removeClass('deferredLoad');
+            });
+         });
+      });
+  </script>
+</head>
+<body class="cdc-fw" id="wps">
+<script>cdcPageTimers.topOfBody = new Date();</script>
+<!--googleoff: index-->
+<!--[if IE 9]><div id="ie9" class="ie"><![endif]-->
+<!--[if IE 8]><div id="ie8" class="ie"><![endif]-->
+<!--[if IE 7]><div id="ie7" class="ie ie67"><![endif]-->
+<!--[if lte IE 6]><div id="ie6" class="ie ie67"><![endif]-->
+<!--googleoff: index--><!--googleoff: snippet-->
+<div id="fw-mb">
+<div id="fw-mb-w1">
+<!-- BEGIN MASTER BRAND HEADER SSI -->
+<div id="fw-banner">
+<div id="fw-banner-w1">
+<!-- BEGIN SKIP -->
+<div id="fw-mbsk">
+<p>
+<a accesskey="1" href="/c/en/us/index.html" tabindex="3" target="_top">Home</a>
+<a accesskey="2" href="#content">Skip to Content</a>
+<a accesskey="5" href="#pagefooter">Skip to Footer</a>
+</p>
+</div>
+<!-- END SKIP -->
+<!-- BEGIN LOGO -->
+<div id="fw-mbl"><p><a href="/c/en/us/index.html">Cisco Systems, Inc. ®</a></p></div>
+<!-- END LOGO -->
+<!-- BEGIN MEGAMENU -->
+<div id="fw-mm">
+<table cellspacing="0" class="mm-items" summary="">
+<tr>
+<td class="mm-item" id="products-mm-item">
+<a class="mm-link" href="/c/en/us/products/index.html">Products &amp; Services</a>
+<a class="mm-reflink" href="//www.cisco.com/web/fw/co/menu-content.html#products-mm-menu">(menu)</a>
+</td>
+<td class="mm-item" id="support-mm-item">
+<a class="mm-link" href="/c/en/us/support/index.html">Support</a>
+<a class="mm-reflink" href="//www.cisco.com/web/fw/co/menu-content.html#support-mm-menu">(menu)</a>
+</td>
+<td class="mm-item" id="ordering-mm-item">
+<a class="mm-link" href="/c/en/us/buy.html">How to Buy</a>
+<a class="mm-reflink" href="//www.cisco.com/web/fw/co/menu-content.html#ordering-mm-menu">(menu)</a>
+</td>
+<td class="mm-item" id="training-mm-item">
+<a class="mm-link" href="/c/en/us/training-events.html">Training &amp; Events</a>
+<a class="mm-reflink" href="//www.cisco.com/web/fw/co/menu-content.html#training-mm-menu">(menu)</a>
+</td>
+<td class="mm-item" id="partner-mm-item">
+<a class="mm-link" href="/c/en/us/partners.html">Partners</a>
+<a class="mm-reflink" href="//www.cisco.com/web/fw/co/menu-content.html#partner-mm-menu">(menu)</a>
+</td>
+</tr>
+</table>
+</div>
+<!-- END MEGAMENU -->
+<!-- BEGIN SEARCH -->
+<div id="fw-mbs">
+<form action="https://tools.cisco.com/search/JSP/search-results.get" id="sitewidesearch" method="get" name="sitewidesearch">
+<label accesskey="3" for="searchPhrase" id="search" name="search">Search</label>
+<p class="field-button">
+<input autocomplete="off" class="field-button-field" id="searchPhrase" name="strQueryText" tabindex="1" type="text" value=""/>
+<input class="field-button-button" id="go" tabindex="2" type="submit" value="Go"/>
+</p>
+<input name="Search All Cisco.com" type="hidden" value="cisco.com"/>
+</form>
+</div>
+<!-- END SEARCH -->
+<!-- BEGIN TOOLBAR -->
+<!-- toolbar content start --->
+<div id="fw-ft-basic">
+<div class="ft-toolbar">
+<div class="ft-group ft-country-lang-group">
+<div class="ft-sect ft-country">
+<a class="ft-label" href="http://www.cisco.com/en/US/swassets/sw274/sitewide_country_language_selector.html" onclick="global_openCdcPopup('http://www.cisco.com/en/US/swassets/sw274/sitewide_country_language_selector.html',643,468);return false;" title="Popup: Region/Language Selector">
+<span class="ft-country-name">Worldwide</span>
+<span class="ft-country-change">[change]</span>
+</a>
+</div><!-- end ft-country -->
+</div><!-- end ft-country-lang-group-->
+<!-- ***ENTITLEMENT*** -->
+<div class="ft-group ft-guest-group">
+<div class="ft-sect ft-login">
+<a class="ft-label" href="/portal/psn/download/login.html?login=true&amp;referer=https://software.cisco.com/portal/pub/download/release.html?flowid=79160&amp;softwareid=282046477&amp;mdfid=284389362">Log In</a>
+</div>
+<div class="ft-sect ft-account">
+<a class="ft-label" href="/web/siteassets/account/index.html">Account</a>
+</div>
+<div class="ft-sect ft-register">
+<a class="ft-label" href="//idreg.cloudapps.cisco.com/idreg/guestRegistration.do?locale=en_US">Register</a>
+</div>
+<div class="ft-sect ">
+<a class="ft-label" href="http://www.cisco.com/cisco/psn/web/workspace">My Cisco</a>
+</div>
+</div>
+</div><!-- end ft-toolbar -->
+</div><!--end fw-ft-basic -->
+<!-- END TOOLBAR -->
+</div><!-- end fw-banner-w1 -->
+</div><!-- end fw-banner -->
+<!-- END MASTER BRAND HEADER SSI -->
+<table border="0" cellpadding="0" cellspacing="0" id="framework-base-main" summary="">
+<tr>
+<td id="framework-column-center">
+<a name="content"></a>
+<div class="ptl-full">
+<!-- 
+/*
+ * Created on March 10, 2010
+ *
+ * Copyright 2009 Cisco Systems Inc.
+ * This software is the confidential and proprietary information of
+ * Cisco Inc. ("Confidential Information").  You shall not
+ * disclose such Confidential Information and shall use it only in
+ * accordance with the terms of the license agreement you entered into
+ * with Cisco Inc.
+ */
+ -->
+<script type="text/javascript">
+	var NTPT_PGEXTRA='un=&status=Anonymous';
+</script>
+<!--
+<script type="text/javascript" src='https://www.static-cisco.com/web/fw/softwareportal/js/ntpagetag_prod.js'></script>
+
+View HTTP Headers for IPv4 or IPv6 testing in non-prod
+
+-->
+<script language="JavaScript">
+	
+	var loginUrl = '/portal/psn/download/login.html';
+	var cartUrl = '/download/cart.html';
+	var anoncartUrl = '/download/pub/details.html';
+	var k9EU10=''; 
+	var ipCheckStatus='pass';
+	var bcCertURL='https://www.cisco.com/web/Downloads/SDS/certdesignation.html';
+ 	var newwindow = '';
+ 	var friendlyURL = '/download/release.html';
+ 	var specialURL = "/download/special/release.html";
+ 	var enableSDPFeedback="false";
+ 	var ldImgId="";
+ 	var userAccessLevel ='';
+	var userId='';
+	var emailId='';
+	var imageGUId="";
+	var releaseType="";
+	var eulaConfig="";
+	var PassfullencodedURL=escape(document.location.href);
+	var ImageAccessLevel="";
+	var CartURL="";
+ 	
+ function newWindow(url) {
+ 	if (!newwindow.closed && newwindow.location) {
+ 		newwindow.location.href = url;
+ 	}
+	else if (arguments[1] && arguments[2]) {
+		windowPrefs = 'width=' + arguments[1] + ',height=' + arguments[2] + ',toolbar=yes,location=yes,directories=yes,status=yes,menubar=yes,scrollbars=yes,copyhistory=yes,resizable=yes';
+		newwindow=window.open(url,'katanawindow',windowPrefs);
+ 		if (!newwindow.opener) newwindow.opener = self;
+	}
+ 	else {
+ 		newwindow=window.open(url,'katanawindow','width=600,height=600,toolbar=yes,location=yes,directories=yes,status=yes,menubar=yes,scrollbars=yes,copyhistory=yes,resizable=yes');
+ 		if (!newwindow.opener) newwindow.opener = self;
+ 	}
+ 	if (window.focus) {
+ 		newwindow.focus();
+ 	}
+ 	return false;
+}
+
+function loginAndGotoCartPage(){
+	var loginurl=loginUrl+"?login=true&referer="+cartUrl;	
+	window.location.href=loginurl;
+}
+function feedCartPage()
+{	
+	//Changing feedback link of the Non Anonymous user(person who logs in) to Openion lab Feedback link(which is there in bottom of all the pages).
+	var URL='https://secure.opinionlab.com/ccc01/o.asp?id=yFDTSRbk&referer='+PassfullencodedURL+'&custom_var='+userId+'&resize=false';
+	var iswebkit = /webkit/.test( navigator.userAgent.toLowerCase() );
+	if(iswebkit)
+	{
+		window.open(URL,'feedback',' width=550,height=460, scrollbars=1, menubar=1, resizable=1');
+	}else{
+		window.open(URL,'feedback','width=550, height=460, scrollbars=1, menubar=1, resizable=1');
+	}
+	
+}
+function feedAnonCartPage()
+{	
+	//Changing feedback link of the Anonymous user(person who does not logs in) to Openion lab Feedback link(which is there in bottom of all the pages).
+	var URL='https://secure.opinionlab.com/ccc01/o.asp?id=PBdNxgcc&referer='+PassfullencodedURL+'&resize=false';
+	//window.open('https://secure.opinionlab.com/ccc01/o.asp?id=PBdNxgcc&referer='+PassfullencodedURL+'&resize=false&imageGuId='+ldImgId, 'feedback', 'width=550, height=460, scrollbars=1, menubar=1, resizable=1');
+	window.open(URL,'feedback', 'width=550, height=460, scrollbars=1, menubar=1, resizable=1'); 
+}
+
+function feediframeCartPage(){
+	
+	//Changing feedback link of the cart page to Openion lab Feedback link(which is there in bottom of all the pages).
+	
+	//Getting the images length from cart page 
+	var CartLength=$('#downlaodimgcartlength').val();
+	
+	var varFinMdfConceptName="";
+	var varFinSoftwareTypeName="";
+	var varFinReleaseVersion="";
+	var varFinPlatformName="";
+	var varFinFileName="";
+	var varFinImageGUIId="";
+	var varFinAccessLevel="";
+	for(var p=0;p<CartLength;p++)
+	{
+		//Getting all the image values from cart page 
+		var CartValues=$('#DwnloadCartVal-'+p).val();
+		
+		CartValues=CartValues.replace("null","NA");
+		CartValues=CartValues.replace("Null","NA");
+		CartValues=CartValues.replace(null,"NA");
+		//CartValues=CartValues.replace("","NA");
+		
+		var CartValuesSplit=CartValues.split(",");
+		
+		var	varMdfConceptName=CartValuesSplit[0];
+		var	varSoftwareTypeName=CartValuesSplit[1];
+		var	varReleaseVersion=CartValuesSplit[2];
+		var	varPlatformName=CartValuesSplit[3];
+		var	varFileName=CartValuesSplit[4];
+		var	varImageGUIId=CartValuesSplit[5];
+		var	varAccessLevel=CartValuesSplit[6];
+		
+		if(varFinMdfConceptName.length>0)
+		{
+			varFinMdfConceptName=varFinMdfConceptName+";"+varMdfConceptName;
+		}
+		else
+		{
+			varFinMdfConceptName=varMdfConceptName;
+		}
+		
+		if(varFinSoftwareTypeName.length>0)
+		{
+			varFinSoftwareTypeName=varFinSoftwareTypeName+";"+varSoftwareTypeName;
+		}
+		else
+		{
+			varFinSoftwareTypeName=varSoftwareTypeName;
+		}
+		if(varFinReleaseVersion.length>0)
+		{
+			varFinReleaseVersion=varFinReleaseVersion+";"+varReleaseVersion;
+		}
+		else
+		{
+			varFinReleaseVersion=varReleaseVersion;
+		}
+		if(varFinPlatformName.length>0)
+		{
+			varFinPlatformName=varFinPlatformName+";"+varPlatformName;
+		}
+		else
+		{
+			varFinPlatformName=varPlatformName;
+		}
+		if(varFinFileName.length>0)
+		{
+			varFinFileName=varFinFileName+";"+varFileName;
+		}
+		else
+		{
+			varFinFileName=varFileName;
+		}
+		if(varFinImageGUIId.length>0)
+		{
+			varFinImageGUIId=varFinImageGUIId+";"+varImageGUIId;
+		}
+		else
+		{
+			varFinImageGUIId=varImageGUIId;
+		}
+		if(varFinAccessLevel.length>0)
+		{
+			varFinAccessLevel=varFinAccessLevel+";"+varAccessLevel;
+		}
+		else
+		{
+			varFinAccessLevel=varAccessLevel;
+		}		
+	}
+	var targetURL="https://secure.opinionlab.com/ccc01/o.asp?id=yFDTSRbk&referer="+PassfullencodedURL+"&custom_var=CCOID:"+userId+"|MDFName:"+varFinMdfConceptName+"|SoftwareType:"+varFinSoftwareTypeName+"|ReleaseVersion:"+varFinReleaseVersion+"|PlatformName:"+varFinPlatformName+"|ImageName:"+varFinFileName+"|AccessLevel:"+varFinAccessLevel+"&resize=false";
+
+	window.open(targetURL, 'feedback', 'width=550, height=460, scrollbars=1, menubar=1, resizable=1'); 
+}
+function enableFeedback(imageGUID){
+ldImgId=imageGUID;
+
+if(document.getElementById('feedDiv'))
+{
+document.getElementById('feedDiv').style.display="block";
+}
+}
+
+function hideDownloadCartLink(releaseType){
+	if(releaseType == "Hidden with ACL"){	
+	}
+	else{
+		document.getElementById("cartDiv").style.visibility = "visible";
+	}
+
+}
+
+jQuery(document).ready(function(){
+ 	if(friendlyURL == specialURL){
+ 		document.getElementById("cartDiv").style.visibility = "hidden";
+	}
+ 	
+});
+
+function setBCMetrics(basePageTitle, linkUrl, linkText){
+	ntptAddPair("ev","NGWSDS");
+	ntptAddPair("sitearea","DLSW-Breadcrumb");
+	ntptAddPair("action", "Select Breadcrumb");
+	ntptAddPair("basepageUrl",document.location.href); 
+	ntptAddPair("basepageTitle",basePageTitle);	
+	ntptAddPair("linkUrl",linkUrl);
+	ntptAddPair("linkText",linkText);
+	var loggedIn = "";
+	loginStatus='Anonymous';
+	if(loginStatus == 'Anonymous'){
+		loggedIn = "No";
+		//Changing the value from Unknown to Anonymous as per I2R 9695 (April Release)
+		ntptAddPair("entitlement","Anonymous");
+	}else{
+		loggedIn = "Yes";
+		ntptAddPair("un",'');
+		ntptAddPair("entitlement",'');
+	}
+	ntptAddPair("loggedIn",'Anonymous');
+	ntptAddPair("NGW Login Status",'Anonymous');
+	ntptAddPair("status",'Anonymous');	
+}
+
+function updateBCRelease(relVersion)
+{
+	var bcRel = $(".csProductSelectorBreadcrumbItemLast").html();
+	bcRel = bcRel.substring(0,bcRel.indexOf("-"));
+	bcRel = bcRel + "-"+ relVersion;
+	$(".csProductSelectorBreadcrumbItemLast").html(bcRel);
+}
+
+</script>
+<link href="https://www.static-cisco.com/web/fw/softwareportal/css/sdpsupport.css" rel="stylesheet" type="text/css">
+<div class="csWrapper">
+<div class="csSub" style="overflow: visible; width: 100%;">
+<div class="helpDiv" id="helpDiv" style="display: block;">
+<a href="javascript: void(0);" onclick="return newWindow('https://www.cisco.com/web/Downloads/SDS/Software_Downloads/help.html');" title="Help">Help</a>
+</div>
+<div class="helpDiv" id="feedDiv" style="display: block;">
+<a href="javascript: void(0);" onclick="javascript:feedAnonCartPage();" title="Feedback"><img border="0" id="feedback_img" src="https://www.cisco.com/web/fw/i/sm_0000EE_oo1.gif" style="cursor: pointer;" title="Feedback"> Feedback</img></a>
+</div>
+<div class="cartDiv" id="cartDiv" style="display: block;">
+<a class="sdpballonstylett" href="javascript:void(0);" style="color:gray;cursor:default;">
+<img alt="Download Cart" src="https://www.static-cisco.com/web/fw/softwareportal/images/download_basket_disabled.png">
+<span class="tooltip tooltipCloser">
+<div id="arrowLeft"></div>
+<div class="outerDiv">
+<div class="toolTipTitle" style="color:#FFFFFF">Login Required</div>
+<div class="innerDiv">
+<table><tr><td><a class="sdppopuphyperlink" href="javascript:loginAndGotoCartPage();">Log In</a></td><td> </td><td><p style="white-space:normal;"> to view your cart</p></td></tr></table>
+</div>
+</div>
+</span>
+</img></a>
+<a class="sdpballonstylett" href="javascript: void(0);" style="color:gray;cursor:default;">
+									Download Cart
+									<span class="tooltip tooltipCloser">
+<div id="arrowLeft"></div>
+<div class="outerDiv">
+<div class="toolTipTitle" style="color:#FFFFFF">Login Required</div>
+<div class="innerDiv">
+<table><tr><td><a class="sdppopuphyperlink" href="javascript:loginAndGotoCartPage();">Log In</a></td><td> </td><td><p style="white-space:normal;"> to view your cart</p></td></tr></table>
+</div>
+</div>
+</span>
+</a>
+								 (<span id="cartCount"><label id="cartCountValue">0</label></span> items)
+							
+				</div>
+<h1><label class="SDPBannerSubTitle" id="SDPBannerPortlet_SubTitle_label1">Download Software</label></h1>
+<div class="csProductSelectorBreadcrumb csContain" style="height:100%;">
+<div class="csContain">
+<table width="100%">
+<tbody>
+<tr>
+<td align="left" class="csProductSelectorBreadcrumbTrailTD" width="*">
+<div class="csProductSelectorBreadcrumbItem">
+<a class="csProductSelectorHome" href="/download/navigator.html" onclick="setBCMetrics('Release', '/download/navigator.html', 'Home'); return ntptLinkTag(this);" style="vertical-align: bottom;">Downloads Home</a>
+</div>
+<div class="csProductSelectorBreadcrumbItem">
+<a class="csLink0" href="/download/navigator.html?mdfid=268437593&amp;dvdid=0&amp;flowid=79160" onclick="setBCMetrics('Release', '/download/navigator.html?mdfid=268437593&amp;dvdid=0&amp;flowid=79160', 'Products'); return ntptLinkTag(this);">Products</a>
+</div>
+<div class="csProductSelectorBreadcrumbItem">
+<a class="csLink0" href="/download/navigator.html?mdfid=268438303&amp;dvdid=0&amp;flowid=79160" onclick="setBCMetrics('Release', '/download/navigator.html?mdfid=268438303&amp;dvdid=0&amp;flowid=79160', 'IOS and NX-OS Software'); return ntptLinkTag(this);">IOS and NX-OS Software</a>
+</div>
+<div class="csProductSelectorBreadcrumbItem">
+<a class="csLink0" href="/download/navigator.html?mdfid=281823858&amp;dvdid=0&amp;flowid=79160" onclick="setBCMetrics('Release', '/download/navigator.html?mdfid=281823858&amp;dvdid=0&amp;flowid=79160', 'IOS XE'); return ntptLinkTag(this);">IOS XE</a>
+</div>
+<div class="csProductSelectorBreadcrumbItem">
+<a class="csLink0" href="/download/navigator.html?mdfid=283341668&amp;dvdid=0&amp;flowid=79160" onclick="setBCMetrics('Release', '/download/navigator.html?mdfid=283341668&amp;dvdid=0&amp;flowid=79160', 'IOS XE S'); return ntptLinkTag(this);">IOS XE S</a>
+</div>
+<div class="csProductSelectorBreadcrumbItem">
+<a class="csLink0" href="/download/navigator.html?mdfid=283343818&amp;dvdid=0&amp;flowid=79160" onclick="setBCMetrics('Release', '/download/navigator.html?mdfid=283343818&amp;dvdid=0&amp;flowid=79160', 'IOS XE 3S'); return ntptLinkTag(this);">IOS XE 3S</a>
+</div>
+<div class="csProductSelectorBreadcrumbItem">
+<a class="csLink0" href="/download/navigator.html?mdfid=268437899&amp;dvdid=283343818&amp;flowid=79160" onclick="setBCMetrics('Release', '/download/navigator.html?mdfid=268437899&amp;dvdid=283343818&amp;flowid=79160', 'Routers'); return ntptLinkTag(this);">Routers</a>
+</div>
+<div class="csProductSelectorBreadcrumbItem">
+<a class="csLink0" href="/download/navigator.html?mdfid=283001968&amp;dvdid=283343818&amp;flowid=79160" onclick="setBCMetrics('Release', '/download/navigator.html?mdfid=283001968&amp;dvdid=283343818&amp;flowid=79160', 'Branch Routers'); return ntptLinkTag(this);">Branch Routers</a>
+</div>
+<div class="csProductSelectorBreadcrumbItem">
+<a class="csLink0" href="/download/navigator.html?mdfid=286281708&amp;dvdid=283343818&amp;flowid=79160" onclick="setBCMetrics('Release', '/download/navigator.html?mdfid=286281708&amp;dvdid=283343818&amp;flowid=79160', '4000 Series Integrated Services Routers'); return ntptLinkTag(this);">4000 Series Integrated Services Routers</a>
+</div>
+<div class="csProductSelectorBreadcrumbItemLast"> 4451-X Integrated Services Router-IOS XE Software </div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="SDPBannerTitle">
+<table>
+<tr>
+<td class="SDPBannerTitle">
+					4451-X Integrated Services Router
+				</td>
+</tr>
+</table>
+</div>
+<div class="eulaDiv" id="eulaDiv"></div>
+<div class="k9FormDiv" id="k9Form"></div>
+<div id="mydiv"> </div>
+</div>
+</div>
+<!-- 
+/*
+ * Created on Jan 29, 2010  
+ *
+ * Copyright 2010 Cisco Systems Inc.
+ * This software is the confidential and proprietary information of
+ * Cisco Inc. ("Confidential Information").  You shall not
+ * disclose such Confidential Information and shall use it only in
+ * accordance with the terms of the license agreement you entered into
+ * with Cisco Inc.
+ */
+ -->
+<link href="https://www.static-cisco.com/web/fw/softwareportal/css/k9stylesheet.css" rel="stylesheet" type="text/css">
+<link href="https://www.static-cisco.com/web/fw/softwareportal/css/sdpsupport.css" rel="stylesheet" type="text/css">
+<link href="https://www.static-cisco.com/web/fw/softwareportal/css/sdsp_ri.css" rel="stylesheet" type="text/css">
+<link href="https://www.static-cisco.com/web/fw/softwareportal/dist/css/saw.min.css" rel="stylesheet" type="text/css">
+<!-- prkishan addition of CSS for CNS integration -->
+<link href="https://www.static-cisco.com/web/fw/softwareportal/css/dhtmlxcombo.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+.fileTD {
+	max-width: 420px;
+	word-break: break-all;
+	word-wrap: break-word;
+}
+</style>
+<!--String adddevEnableImgpath=SDPSharedUtilsConstants.RESOURCE_CONTEXT+"/images/Add_to_device_1336_16.png";-->
+<!--String adddevDisableImgpath=SDPSharedUtilsConstants.RESOURCE_CONTEXT+"/images/Add_to_device_1336_disabled_16.png";-->
+<!--String setnotiEnableImgpath=SDPSharedUtilsConstants.RESOURCE_CONTEXT+"/images/Add_notification_1335_16.png";-->
+<!--String setnotiDisableImgpath=SDPSharedUtilsConstants.RESOURCE_CONTEXT+"/images/Add_notification_1335_disabled_16.png";-->
+<!--chnages from anwasnik-->
+<style>
+</style>
+<script src="https://www.static-cisco.com/web/fw/softwareportal/js/ajax_obj.js" type="text/javascript"></script>
+<!-- script type="text/javascript"
+	src='https://www.static-cisco.com/web/fw/softwareportal/js/JSON.js'></script -->
+<script src="https://www.static-cisco.com/web/fw/softwareportal/js/jquery.tablesorter.js" type="text/javascript"></script>
+<link href="https://www.static-cisco.com/web/fw/softwareportal/css/image_overlay.css" rel="STYLESHEET" type="text/css">
+<script src="https://www.static-cisco.com/web/fw/softwareportal/js/jquery.hoverIntent.js" type="text/javascript"></script>
+<script src="https://www.static-cisco.com/web/fw/softwareportal/js/image_overlay.js" type="text/javascript"></script>
+<script src="https://www.static-cisco.com/web/fw/softwareportal/js/download.js" type="text/javascript"></script>
+<script src="https://www.static-cisco.com/web/fw/softwareportal/js/eulacontent.js" type="text/javascript"></script>
+<script src="https://www.static-cisco.com/web/fw/softwareportal/js/sapopup.js" type="text/javascript"></script>
+<!-- prkishan addition of JS for CNS integration 11280 -->
+<script src="https://www.static-cisco.com/web/fw/softwareportal/js/dhtmlxcommon.js" type="text/javascript"></script>
+<script src="https://www.static-cisco.com/web/fw/softwareportal/js/dhtmlxcombo.js" type="text/javascript"></script>
+<script src="https://www.static-cisco.com/web/fw/softwareportal/js/dhtmlxcombo.js" type="text/javascript"></script>
+<script src="https://www.static-cisco.com/web/fw/softwareportal/dist/js/saw.min.js" type="text/javascript"></script>
+<link href="https://www.static-cisco.com/web/fw/softwareportal/css/jquery.rating.css" rel="stylesheet" type="text/css">
+<link href="https://www.static-cisco.com/web/fw/softwareportal/css/ratings_image_overlay.css" rel="stylesheet" type="text/css">
+<link href="https://www.static-cisco.com/web/fw/softwareportal/css/review_rating.css" rel="stylesheet" type="text/css">
+<link href="https://www.static-cisco.com/web/fw/softwareportal/css/cisco_base.css" rel="stylesheet" type="text/css">
+<link href="https://www.static-cisco.com/web/fw/softwareportal/css/jquery.highlighttextarea.css" rel="stylesheet" type="text/css">
+<script src="https://www.static-cisco.com/web/fw/softwareportal/js/jquery.rating.js" type="text/javascript"></script>
+<script src="https://www.static-cisco.com/web/fw/softwareportal/js/jquery.overlay.js" type="text/javascript"></script>
+<script src="https://www.static-cisco.com/web/fw/softwareportal/js/jquery.MetaData.js" type="text/javascript"></script>
+<script src="https://www.static-cisco.com/web/fw/softwareportal/js/ratings_common.js" type="text/javascript"></script>
+<script src="https://www.static-cisco.com/web/fw/softwareportal/js/view_ratings.js" type="text/javascript"></script>
+<script src="https://www.static-cisco.com/web/fw/softwareportal/js/maxlength.js" type="text/javascript"></script>
+<script src="https://www.static-cisco.com/web/fw/softwareportal/js/jquery.highlighttextarea.js" type="text/javascript"></script>
+<script src="https://www.static-cisco.com/web/fw/softwareportal/js/rnr.js" type="text/javascript"></script>
+<script type="text/javascript">
+	window.isApolloUser=false;	//Set Apollo user flag in Release Page
+	var sortArrowUpSrc='https://www.static-cisco.com/web/fw/softwareportal/images/tree_arrow_up.png';
+	var sortArrowDnSrc='https://www.static-cisco.com/web/fw/softwareportal/images/tree_arrow_down.png';
+	var certificationText='This Icon indicates that a software image has received an elevated status designation from Cisco.<br><a class="certLink"  href="http://www.cisco.com/web/Downloads/SDS/certdesignation.html" target="_blank">(Learn More...)</a>';
+	var relatedSofware='false';
+	var sdpricontext = 'https://www.static-cisco.com/web/fw/softwareportal';	
+	var sdpriImgMin = 'https://www.static-cisco.com/web/fw/softwareportal/images/ptl_btnMin.gif';
+	var sdpriImgMax = 'https://www.static-cisco.com/web/fw/softwareportal/images/btnRestore.gif';
+	var imgMin_PI = 'https://www.static-cisco.com/web/fw/softwareportal/images/ptl_btnMin.gif';
+	var imgRestore_PI = 'https://www.static-cisco.com/web/fw/softwareportal/images/btnRestore.gif';
+	//var sdpriAddDevDisable = 'https://www.static-cisco.com/web/fw/softwareportal/images/Add_to_device_1336_disabled_16.png';
+	var sdpriAddDevDisable = 'https://www.static-cisco.com/web/fw/softwareportal/images/Add_device_disabled_16.png';
+	//var sdpriNotiDisable = 'https://www.static-cisco.com/web/fw/softwareportal/images/Add_notification_1335_disabled_16.png';
+	var sdpriNotiDisable = 'https://www.static-cisco.com/web/fw/softwareportal/images/Add_notification_disabled_16.png';
+	var mdfTree = null;
+	var isImage = false;
+	var emptyimageList = false;
+	var relversionsel = '';
+	var certdesignation='https://www.cisco.com/web/Downloads/SDS/certdesignation.html';
+	var sorturl=''
+	var viewcompareurl = '';
+	var softwareEntitlement = '';
+	var defmailId ='';
+	//alert("isImage "+isImage);
+	var itemOpen = 1;
+	var parentid=1;
+	var pv_mfrom_i="";
+	var pv_sfttype_i="IOS XE Software";
+	var pv_mdfid_i="284389362";
+	var pd_retdate_i="";
+	var pv_imagefrom_i="";
+	var pv_treename_i="Routers";
+	var pv_modelname_i="4451-X Integrated Services Router";
+	var pv_relmdfid_i="";	
+	var pv_userid_i="aa";       
+	var	pv_mto_i="null";	
+	var flowidparam="&flowid=79160";
+	var addoptionAddToCart = "&addoption=ATC";
+	var addoptionDownloadNow = "&addoption=DN";
+	var enfErrorTitle ='Service Contract Required';
+	var msgLoginURL="";	
+	var showViewCompare=true;
+//DE880:Removed if-else as a part of SWFE project.
+	//if(isImage == true && emptyimageList==false){
+	document.write('<style>.showForImageList{display:"";}</style>');
+		//alert("Inside if");		
+	/*}else{
+		document.write('<style>.showForImageList{display:none;}</style>');
+		//alert("Inside else");
+	}*/
+	var migrpathparams="";
+	
+	var cartId="";
+	var cartCount="";
+	if(cartId != null && cartId!="")
+	{
+	jQuery("#cartId").html(cartId);
+
+	jQuery("#scCount").html(cartCount);
+	jQuery("#cartCountValue").html(cartCount);
+	 cartId=cartId; 
+	 cartCount=cartCount;
+	// alert("cart count : "+cartCount);  
+	}	
+	
+	//var userAccessLevel = "4";
+	var accessEntitlement = "Anonymous";
+	var user_state = "anonymous";
+	
+	var contractAccessLevel = "2";			
+	var openAccessLevel = "0";
+	var advisoryUrl = '';
+	var downloadCartUrl = '/download/cart/service'+'?';
+	var loginUrl = '/portal/psn/download/login.html';
+	var cartUrl = '/download/cart.html';
+	var imageDetailsUrl = '/download/pub/details.html';
+	var redirectUrl = '/portal/pub/download/portal/select.html';	
+	var maxCartCount=25;
+	var maxCartErrMsg="You have exceeded your cart limit. Please remove items from the cart in order to proceed.";
+	var tShowWarn="false";
+	var systemError='The download process was interrupted. Please try <a href="http://software.cisco.com/download/navigator.html">downloading</a> the software again. If you continue to see this message, contact Cisco support at <a href="mailto:web-help@cisco.com">web-help@cisco.com</a>.';
+	var treeMDFId = "268437899";
+	var isLatestRel = "";
+	var mdfId = "284389362";
+	var softwareId = "284389362";
+	var release = "null";
+	var sas_release_data = "null";
+	var relLifeCyle = "null";
+	var notiExists = false;
+	var loginURL = "/portal/psn/download/login.html?login=true&referer=/portal/pub/download/release.html?flowid=79160&softwareid=282046477&mdfid=284389362";
+	var adddeverrprompt= "Please enter a device name."; 
+	var adddevduplicateerr = "You have entered a device name that already exists. Please modify the new device name.";
+	var adddevinvalidcharerr= "You have entered invalid characters. Please modify the device name.";  
+	
+	var param_notiname="&name=";
+	var param_freq="&freq=";
+	var param_deltype="&deltype=";
+	var param_mail="&mail=";
+	var cns_serivceurl="";
+	var adddevice_serivceurl="";
+	var pi_reltitle = "Select a Release ";
+	var logIn = "false"; 
+	var isMSIEStr = "false";
+	
+	var imagePage="false";
+	var callsetnoti="false";
+	var calladddev="false";
+	// prkishan addition for PFM# 12732
+	var fileType="";
+	var isIOS="false";
+	var isNONIOS="false";
+	if(fileType=="IOS")
+		isIOS="true";
+	else if(fileType=="NONIOS")
+		isNONIOS="true";
+	
+	//var count=1;
+	//var resultCount=0;
+function showAddDev() {
+
+	//var callcount=0;
+	if(imagePage=="true"){
+
+			if(calladddev=="true") {
+
+				var deviceText = "Keep track of all your devices from one convenient place." + " ";
+				if(logIn == "true"){
+					deviceText += "<a style='color: #399CD2;text-decoration:none;font-size:11px;' href='https://cway.cisco.com/mydevices' target='_blank'>View Devices</a>.";
+				}else{
+					deviceText += "<a style='color: #399CD2;text-decoration:none;font-size:11px;' href='https://cway.cisco.com/mydevices' target='_blank'>Log In Now</a>.";
+				}
+				var adddevHtml = "<a href='javascript:void(0);' id='adddevmainid' class='sdprinot test' style='text-decoration:none;'>"+
+						"</a>";
+
+				var adddevmaincont= "<div id='adddevimg' class='adddevclass' onclick=\"javascript:window.open('" + "https://cway.cisco.com/mydevices" + "');\"><img src='https://www.static-cisco.com/web/fw/softwareportal/images/Add_device_enabled_16.png'><span class='adddevicetextenabled'>Add Device</span></div>"+
+						"<span style='width: 317px; left: -325px; top: -50px;' class='tooltip tooltipCloser'><div style='left: 314px; top: 30px;' class='arrowLeftNot'></div><div class='outerDiv' style=''><div class='toolTipTitle'><table width='100%'><tbody><tr><td><div class='toolTipTitle'></td><td align='right' style='text-align:right'><img style='width: 15px; height: 15px;vertical-align:middle' src='/web/fw/softwareportal/images/overlay_close.png'></td></tr></tbody></table></div><div class='innerDiv'>"+
+						"<table><tr><td  style='background-color:white;padding-bottom:7px' id='adddevtooltip'>"+deviceText+
+						"</td></tr></table></td></div></div></span>";
+				jQuery("#addDevSetNotiTd").html(adddevHtml);
+				jQuery("#adddevmainid").html(adddevmaincont);
+
+			}
+			$('#addDevSetNotiTd').hover(function(){
+				$('.tooltip').css('display','');
+				$('.tooltip').css('cursor','default');
+			})
+			/*$('#SetNotiSpan').hover(function(){
+				$('.tooltip').css('display','');
+			})*/
+			$('#SetNotiSpan').click(function(){
+				setricommonmetrics("Select SetNotificationAlert","Set Cisco Notification Alert",document.location.href);
+				ntptEventTag();
+			});
+			
+			var risetnoticall= '/portal/pub/download/SDPRIPortlet/SDPRIServlet';
+			risetnoticall=risetnoticall+"?&setNoti=true&math="+Math.random();
+			jQuery.getJSON(risetnoticall,{id:'', ajax: 'true'}, function(resultSet){	
+						
+						
+					
+				var notiDeviceText = "<span class='sdpdcnoti'>To open Cisco Notification Alerts click on the My Cisco Tab and expand the Support Notifications section</span>";		
+				var notiimgpath = "https://www.static-cisco.com/web/fw/softwareportal/images/Add_notification_disabled_16.png";
+				var notiText = "";
+				var restorenotiimg = "https://www.static-cisco.com/web/fw/softwareportal/images/btnRestore.gif";
+				var notiEnable = false;
+				if(logIn == "true" && resultSet.notiExists=="yes"){
+					notiimgpath = "https://www.static-cisco.com/web/fw/softwareportal/images/Add_notification_disabled_16.png";
+					notiText = "The notification alert already exists for<br> the device as \""+resultSet.notiName+"\"";
+				}else if(logIn == "true"){
+					notiimgpath = "https://www.static-cisco.com/web/fw/softwareportal/images/Add_notification_enabled_16.png";
+				   	notiText = "<span class='sdpdcnoti'>Sets a notification alert for this release</span>";
+				   	notiEnable = true;
+				}else{
+					if(isMSIEStr == "true"){
+						notiText = "<a title='Log In' href='javascript:void(0);'  onclick='showLoginPage();return false;'>Log In</a> to set Cisco notification Alert for the device.";
+					}else{
+						notiText = "<custom:itemlink  onclick='showLoginPage();return false;'>Log In</custom:itemlink> to set Cisco notification Alert for the device.";
+					}
+				}
+				var moreInfoNotiText ="<custom:itemlink onclick='javascript:addDevMoreInfoFun();'>More Info</custom:itemlink>";
+				if(isMSIEStr == "true"){
+					moreInfoNotiText = "<a title='More Info' href='javascript:void(0);' onclick='javascript:notiMoreInfoFun();return false;'>More Info</a>";
+				}
+				var setnotiHtml ="<a href='#'class='sdprinot test' style='text-decoration:none;'>"+
+						"<img id='notiimg' src='https://www.static-cisco.com/web/fw/softwareportal/images/Add_notification_disabled_16.png' height='19px'>"+
+						"<span style='width: 317px; left: -325px; top: -50px;' class='tooltip tooltipCloser'><div style='left: 314px; top: 30px;' class='arrowLeftNot'></div><div class='outerDiv' style=''><div class='toolTipTitle'><table width='100%'><tbody><tr><td><div class='toolTipTitle'>Set Cisco Notification Alert</td><td align='right' style='text-align:right'><img style='width: 15px; height: 15px;vertical-align:middle' src='/web/fw/softwareportal/images/overlay_close.png'></td></tr></tbody></table></div><div class='innerDiv'>"+
+						"<table><tr><td  style='background-color:white;padding-bottom:7px' id='notitooltip'>"+
+					    notiText+"</td></tr>"+
+						"<tr id='notimoreinfotr' style='display:block;'><td style='background-color:white; padding-top:10px;'>"+notiDeviceText+
+						"</td></tr></table></div></div></span></a>";
+						
+				if(notiEnable){
+					 setnotiHtml ="<a href='#' class='sdprinot test' style='text-decoration:none;'>"+
+						"<img id='notiimg' src='https://www.static-cisco.com/web/fw/softwareportal/images/Add_notification_enabled_16.png' height='19px'>"+
+						"<span style='width: 317px; left: -325px; top: -50px;' class='tooltip tooltipCloser'><div style='left: 314px; top: 30px;' class='arrowLeftNot'></div><div class='outerDiv' style=''><div class='toolTipTitle'><table width='100%'><tbody><tr><td><div class='toolTipTitle'>Set Cisco Notification Alert</td><td align='right' style='text-align:right'><img style='width: 15px; height: 15px;vertical-align:middle' src='/web/fw/softwareportal/images/overlay_close.png'></td></tr></tbody></table></div><div class='innerDiv'>"+
+						"<table ><tr><td  style='background-color:white;padding-bottom:7px' id='notitooltip'>"+
+					    notiText+"</td></tr>"+
+						"<tr id='notimoreinfotr' style='display:block;'><td style='background-color:white;padding-top:10px;'>"+notiDeviceText+
+						"</td></tr></table></div></div></span>";
+						
+				}		
+				//jQuery("#SetNotiSpan").html(setnotiHtml);
+				SAS_MODAL_INTERFACE.setConfig([{
+                            contextId : '1',                                   
+                            productName : '4451-X Integrated Services Router',
+                            mdfid :  '284389362',
+                            swType : 'IOS XE Software',
+                            softwareid : '282046477',
+                            release : sas_release_data,
+                            htmlContainerElementId : 'SetNotiSpan',             
+                            hoverTo : 'left',
+                            userid : ''
+                            }]);				
+				if(user_state == "loggedIn")	{
+					
+					if(resultSet.notiExists=="yes"){
+						
+					}else{
+						jQuery("#notiimg").click(function(){
+						jQuery(".tooltip").css('display','none');
+						
+						//changes by anwasnik for 13473
+						$(".dhx_combo_box ").remove();
+						if(resultSet.AllNotiName!=null && resultSet.AllNotiName!=""){
+						document.getElementById("notisave").disabled=false;
+						var allNotiName=resultSet.AllNotiName;	
+						var dDown=new dhtmlXCombo("main","notiname1",200);
+						var notiarr = [];
+						for(var i = 0; i < allNotiName.length; i++) {
+   				 			notiarr.push([allNotiName[i],allNotiName[i]]);
+    					}
+						dDown.addOption(notiarr);
+						dDown.enableFilteringMode(true);
+						} else
+						{
+						document.getElementById("notisave").disabled=false;
+						document.getElementById("main").innerHTML ='<input type="text" id="notiname1" width="200px" />' ;
+						}
+						
+						
+						showNotificationMessage();
+						});
+					}
+					if(resultSet.notiName!=null && resultSet.notiName!=""){
+						jQuery("#notiname").val(resultSet.notiName);
+						jQuery("#notiname").attr("disabled","disabled");
+						jQuery("#notisave").attr("disabled","");
+					}
+					if(resultSet.AllNotiName!=null && resultSet.AllNotiName!=""){
+						document.getElementById("notisave").disabled=false;
+						var allNotiName=resultSet.AllNotiName;	
+						var dDown=new dhtmlXCombo("main","notiname1",200);
+						var notiarr = [];
+						for(var i = 0; i < allNotiName.length; i++) {
+   				 			notiarr.push([allNotiName[i],allNotiName[i]]);
+    					}
+						dDown.addOption(notiarr);
+						dDown.enableFilteringMode(true);
+					} else
+					{
+					document.getElementById("notisave").disabled=false;
+					document.getElementById("main").innerHTML ='<input type="text" id="notiname1" width="200px" />' ;
+					}
+				}		
+			});
+	}
+}
+/**
+Reset Header
+*/
+function resetHeader() {
+	$('#fileID').addClass('resetColumn');
+	$('#releaseID').addClass('resetColumn');
+	var dm=$('#dramID');
+	if(dm!=null) {
+		$('#dramID').addClass('resetColumn');
+	}
+	var sz=$('#sizeID');
+	if(sz!=null){
+		$('#sizeID').addClass('resetColumn');
+	}	
+}
+
+//window.onload=function() {
+	//showAddDev();
+	//showAddDev(imagePage,callsetnoti,calladddev);
+//}
+function hideDeleteConfirm() {
+	jQuery.modal.close();
+	//alert("Before focus");
+	//jQuery("#sdpridiv").focus();
+	//document.getElementById("sdpridiv").focus();
+	var iRtarget = (jQuery("#sdpridiv").offset().top - 110);	
+	window.scrollTo(0,iRtarget);
+	//alert("After focus");
+	 
+}
+
+function notiMoreInfoFun(){
+	
+	if(jQuery("#sdprihidnoti").attr("value")==0){
+		jQuery("#notimoreinfotr").slideUp("fast");	
+		jQuery("#notiMoreInfo").attr("src",sdpriImgMax);	
+		jQuery("#notiMoreInfo").attr("title","Maximize");
+		jQuery("#notiMoreInfo").attr("alt","Maximize");
+		jQuery("#sdprihidnoti").attr("value","1");		
+		
+	}else{			
+		jQuery("#notimoreinfotr").slideDown("fast");				
+    	jQuery("#notiMoreInfo").attr("src",sdpriImgMin);
+		jQuery("#notiMoreInfo").attr("title","Minimize");
+		jQuery("#notiMoreInfo").attr("alt","Minimize");
+		jQuery("#sdprihidnoti").attr("value","0");		
+	} 
+}
+
+function addDevMoreInfoFun(){
+	
+		if(jQuery("#sdprihidadddev").attr("value")==0){
+			jQuery("#moreinfotr").slideUp("fast");	
+			jQuery("#addDevMoreInfo").attr("src",sdpriImgMax);	
+			jQuery("#addDevMoreInfo").attr("title","Maximize");
+			jQuery("#addDevMoreInfo").attr("alt","Maximize");
+			jQuery("#sdprihidadddev").attr("value","1");		
+			
+		}else{			
+			jQuery("#moreinfotr").slideDown("fast");				
+	    	jQuery("#addDevMoreInfo").attr("src",sdpriImgMin);
+			jQuery("#addDevMoreInfo").attr("title","Minimize");
+			jQuery("#addDevMoreInfo").attr("alt","Minimize");
+			jQuery("#sdprihidadddev").attr("value","0");
+			
+		} 
+}
+
+
+function riPortletMinMax()
+{		
+  	
+	
+		if(document.getElementById("hiddenIdRI").value==0
+  			||document.getElementById("hiddenIdRI").value=="0")
+ 	{
+  		document.getElementById("sdpridiv").style.display="none";
+  		document.getElementById("maxImgIdRI").style.display="block";	
+  		document.getElementById("minImgIdRI").style.display="none";
+  		document.getElementById("hiddenIdRI").value="1";
+  		//document.getElementById("sdprititlebar").className="ptl-titlebar-sdsImage ptl-min-sdsImage";
+ 	}
+ 	else
+ 	{
+ 		document.getElementById("sdpridiv").style.display="block";		
+ 		document.getElementById("minImgIdRI").style.display="block";	
+  		document.getElementById("maxImgIdRI").style.display="none";
+  		document.getElementById("hiddenIdRI").value="0";
+  		//document.getElementById("sdprititlebar").className="ptl-titlebar-sdsImage";
+ 	}
+	  		
+}
+
+function func_1(thisObj, thisEvent) {
+//use 'thisObj' to refer directly to this component instead of keyword 'this'
+//use 'thisEvent' to refer to the event generated instead of keyword 'event'
+jQuery("#sortby").hide();
+}
+function func_2(thisObj, thisEvent) {
+//use 'thisObj' to refer directly to this component instead of keyword 'this'
+//use 'thisEvent' to refer to the event generated instead of keyword 'event'
+jQuery("#sortby").show();
+}
+/** Get Query Param value */
+function getQeryParamValue(str,name) {
+  name = name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
+  var regexS = "[\\?&]" + name+ "=([^&#]*)";
+  var regex = new RegExp(regexS);
+  var results = regex.exec(str);
+  if(results == null)
+    return "";
+  else
+    return decodeURIComponent(results[1].replace(/\+/g, " "));
+}
+/**
+* This method make a AJAX call onclick of Release version link and returns resoonseHTML.
+*/
+var riPageLocHref=null;
+function updateLoginUrl(url) {
+	if(user_state!=null && user_state!='loggedIn') {
+
+		riPageLocHref=window.location.href;
+		/** Curently Selected Query Param String */
+		var qRelease=getQeryParamValue(url,'release');
+		var qReltype=getQeryParamValue(url,'reltype');
+		//alert('release='+release+',reltype='+reltype);
+		/** Window location href query param */
+		var wRelease=getQeryParamValue(riPageLocHref,'release');
+		var wReltype=getQeryParamValue(riPageLocHref,'reltype');
+		//alert('release='+wRelease+',reltype='+wReltype);
+		if((wRelease!=null&&wRelease!='null'&&wRelease!='') && (wReltype!=null && wReltype!='null'&& wReltype!='')) {
+			riPageLocHref=riPageLocHref.replace(wRelease,qRelease);
+			riPageLocHref=riPageLocHref.replace(wReltype,qReltype);
+		}
+		if(jQuery(".ft-login a")!=null) {
+			if(jQuery(".ft-login a").attr("href")!=null && (jQuery(".ft-login a").attr("href")!='undefined')) {
+				var hrf=jQuery(".ft-login a").attr("href");
+				var lRelease=getQeryParamValue(hrf,'release');
+				var lReltype=getQeryParamValue(hrf,'reltype');
+				if((lRelease!=null && lRelease!='null' && lRelease!='') &&(lReltype!=null && lReltype!='null' && lReltype!='')) {
+					hrf=hrf.replace(lRelease,qRelease);
+					hrf=hrf.replace(lReltype,qReltype);
+				}
+				//alert(hrf);
+				jQuery(".ft-login a").remove("href");
+				jQuery(".ft-login a").attr("href",hrf);
+			}
+		}
+	} 
+}
+				
+var riServletUrl='/portal/pub/download/SDPRIPortlet/SDPRIServlet';
+function getImageDetailsListAJAX(url) {
+	updateLoginUrl(url);
+	var ajaxUrl='/portal/pub/download/SDPRIPortlet/SDPRIServlet';
+	ajaxUrl+="?&oper=imageList"+url;
+	//mdfid=278705538&flowid=40873&softwareid=281761478&release=2.2&rellifecycle=&relind=AVAILABLE&reltype=latest";
+	//alert("URL="+ajaxUrl);
+	getImageDetailsListAJAX
+	var content = "<img alt='loading' src='/web/fw/i/spinner.gif' style='margin-left:300px;margin-top:100px' />";
+	$("#RIAjaxResponseDIV").html(content);
+	$.get(ajaxUrl,	function(data) { 
+		//alert(data);
+		$("#RIAjaxResponseDIV").html(data);
+		try{
+			var relVer = getUrlQueryParam(url,"release"); 
+			sas_release_data = ''+relVer;
+			loadRNR(pv_mdfid_i, relVer);
+		}catch(err) {
+			//Do nothing
+		}
+		showAddDev();
+		var relSwTable=$("#relImageTableContainer");				
+		if(showViewCompare){
+			if(isIOS=="true"){
+				$("#imageTableContainer").tablesorter({headers: {0:{sorter: false},1:{sorter: "text"},2:{sorter: "shortDate"},3:{sorter: "text"},4:{sorter: false}},widgets: ['zebra'],widgetZebra: {css: ['odd','even']}});
+			}
+			if(isNONIOS=="true"){
+				$("#imageTableContainer").tablesorter({headers: {0:{sorter: false},1:{sorter: "text"},2:{sorter: "shortDate"},3:{sorter: "fileSizeSort"},4:{sorter: false}},widgets: ['zebra'],widgetZebra: {css: ['odd','even']}});
+			}
+			if(relSwTable!=null) {
+				if(isIOS=="true"){
+					$("#relImageTableContainer").tablesorter({headers: {0:{sorter: false},1:{sorter: "text"},2:{sorter: "shortDate"}, 3:{sorter: "text"},4:{sorter: false}},widgets: ['zebra'],widgetZebra: {css: ['odd','even']}});
+				}
+				else if(isNONIOS=="true"){
+					$("#relImageTableContainer").tablesorter({headers: {0:{sorter: false},1:{sorter: "text"},2:{sorter: "shortDate"}, 3:{sorter: "fileSizeSort"},4:{sorter: false}},widgets: ['zebra'],widgetZebra: {css: ['odd','even']}});
+				}			
+			}
+			$('#imageRhSide').css("height","363px");
+ 		} else {
+			if(isIOS=="true"){
+				$("#imageTableContainer").tablesorter({headers: {0:{sorter: "text"},1:{sorter: "shortDate"},2:{sorter: "text"},3:{sorter: false}},widgets: ['zebra'],widgetZebra: {css: ['odd','even']}});
+			}
+			else if(isNONIOS=="true"){
+				$("#imageTableContainer").tablesorter({headers: {0:{sorter: "text"},1:{sorter: "shortDate"},2:{sorter: "fileSizeSort"},3:{sorter: false}},widgets: ['zebra'],widgetZebra: {css: ['odd','even']}});
+			}	
+			if(relSwTable!=null) {
+				if(isIOS=="true"){
+					$("#relImageTableContainer").tablesorter({headers: {0:{sorter: "text"},1:{sorter: "shortDate"},2:{sorter: "text"},3:{sorter: false}},widgets: ['zebra'],widgetZebra: {css: ['odd','even']}});
+				}
+				else if (isNONIOS=="true"){
+					$("#relImageTableContainer").tablesorter({headers: {0:{sorter: "text"},1:{sorter: "shortDate"},2:{sorter: "fileSizeSort"},3:{sorter: false}},widgets: ['zebra'],widgetZebra: {css: ['odd','even']}});
+				}	
+			}
+			$('#imageRhSide').css("height","380px");
+		}
+						/** The below code added for table sorting */
+						$('#fileTH').click(function(){
+							$('#fileTH').removeClass('selColumn');
+							$('#releaseTH').removeClass('selColumn');
+							var dm=$('#dramTH');
+							if(dm!=null) {
+								$('#dramTH').removeClass('selColumn');
+							}
+							var sz=$('#sizeTH');
+							if(sz!=null){
+								$('#sizeTH').removeClass('selColumn');
+							}	
+						  	$('#fileTH').addClass('selColumn');
+						  	var sortingOrder=$('#fileTH img').attr('class');
+							var sortOrder=(sortingOrder!=null && sortingOrder=='asc')?0:1;
+						  	if(sortingOrder!=null&&sortingOrder=='asc') {
+						  		$('#fileTH img').attr('src',sortArrowUpSrc);
+						  		$('#fileTH img').removeClass('asc').addClass('dsc');
+						  	}else {
+						  		$('#fileTH img').attr('src',sortArrowDnSrc);
+						  		$('#fileTH img').removeClass('dsc').addClass('asc');
+						  	}
+							/** Added code for Sorting */
+							var colIndex=(showViewCompare==true)?1:0;
+							var sorting = [[colIndex,sortOrder]]; 
+							$("#imageTableContainer").trigger("sorton",[sorting]); 
+							if(relatedSofware!=null&&relatedSofware=='true') {
+								$("#relImageTableContainer").trigger("sorton",[sorting]);
+							} 
+							return true;
+						 });
+
+						 $('#releaseTH').click(function(){
+							$('#fileTH').removeClass('selColumn');
+							$('#releaseTH').removeClass('selColumn');
+							var dm=$('#dramTH');
+							if(dm!=null) {
+								$('#dramTH').removeClass('selColumn');
+							}
+							var sz=$('#sizeTH');
+							if(sz!=null){
+								$('#sizeTH').removeClass('selColumn');
+							}	
+						  	$('#releaseTH').addClass('selColumn');
+						  	var sortingOrder=$('#releaseTH img').attr('class');
+						  	var sortOrder=(sortingOrder!=null && sortingOrder=='asc')?0:1;
+						  	if(sortingOrder!=null&&sortingOrder=='asc') {
+						  		$('#releaseTH img').attr('src',sortArrowUpSrc);
+						  		$('#releaseTH img').removeClass('asc').addClass('dsc');
+						  	}else {
+						  		$('#releaseTH img').attr('src',sortArrowDnSrc);
+						  		$('#releaseTH img').removeClass('dsc').addClass('asc');
+						  	}
+							/** Added code for Sorting */
+							var colIndex=(showViewCompare==true)?2:1;
+							var sorting = [[colIndex,sortOrder]]; 
+							$("#imageTableContainer").trigger("sorton",[sorting]); 
+							if(relatedSofware!=null&&relatedSofware=='true') {
+								$("#relImageTableContainer").trigger("sorton",[sorting]);
+							} 
+							return true;
+						});
+						 $('#dramTH').click(function(){
+							$('#fileTH').removeClass('selColumn');
+							$('#releaseTH').removeClass('selColumn');
+							var dm=$('#dramTH');
+							if(dm!=null) {
+								$('#dramTH').removeClass('selColumn');
+							}
+							var sz=$('#sizeTH');
+							if(sz!=null){
+								$('#sizeTH').removeClass('selColumn');
+							}	
+
+						  	$('#dramTH').addClass('selColumn');
+						  	var sortingOrder=$('#dramTH img').attr('class');
+						  	var sortOrder=(sortingOrder!=null && sortingOrder=='asc')?0:1;
+						  	if(sortingOrder!=null&&sortingOrder=='asc') {
+						  		$('#dramTH img').attr('src',sortArrowUpSrc);
+						  		$('#dramTH img').removeClass('asc').addClass('dsc');
+						  	}else {
+						  		$('#dramTH img').attr('src',sortArrowDnSrc);
+						  		$('#dramTH img').removeClass('dsc').addClass('asc');
+						  	}
+						  	/** Added code for Sorting */
+							var colIndex=(showViewCompare==true)?3:2;
+							var sorting = [[colIndex,sortOrder]]; 
+							$("#imageTableContainer").trigger("sorton",[sorting]); 
+							if(relatedSofware!=null&&relatedSofware=='true') {
+								$("#relImageTableContainer").trigger("sorton",[sorting]);
+							} 
+							return true;
+						 });
+						 $('#sizeTH').click(function(){
+							$('#fileTH').removeClass('selColumn');
+							$('#releaseTH').removeClass('selColumn');
+							var dm=$('#dramTH');
+							if(dm!=null) {
+								$('#dramTH').removeClass('selColumn');
+							}
+							var sz=$('#sizeTH');
+							if(sz!=null){
+								$('#fileTH').removeClass('selColumn');
+							}	
+						  	$('#sizeTH').addClass('selColumn');
+						  	var sortingOrder=$('#sizeTH img').attr('class');
+							var sortOrder=(sortingOrder!=null && sortingOrder=='asc')?0:1;
+						  	if(sortingOrder!=null&&sortingOrder=='asc') {
+						  		$('#sizeTH img').attr('src',sortArrowUpSrc);
+						  		$('#sizeTH img').removeClass('asc').addClass('dsc');
+						  	}else {
+						  		$('#sizeTH img').attr('src',sortArrowDnSrc);
+						  		$('#sizeTH img').removeClass('dsc').addClass('asc')
+						  	}
+						  	/** Added code for Sorting */
+							var colIndex=(showViewCompare==true)?3:2;
+							var sorting = [[colIndex,sortOrder]]; 
+							$("#imageTableContainer").trigger("sorton",[sorting]); 
+							if(relatedSofware!=null&&relatedSofware=='true') {
+								$("#relImageTableContainer").trigger("sorton",[sorting]);
+							} 
+							return true;
+						 });
+	 					
+		// Added to below code to change the scroll div height dynamically.
+		var riDivHeight=$('#RIAjaxResponseDIV').innerHeight();
+		if(riDivHeight!=null && riDivHeight>450) {
+			var extraHeight=riDivHeight-445;							
+			var rheight=$('#imageRhSide').innerHeight();
+			if(rheight!=null) {
+				var adjHeight=rheight-extraHeight+"px";
+				$('#imageRhSide').css("height",adjHeight);
+			}
+		}		
+		$("#imageRhSide .overlay_img").getImageInfo();
+		var certObj=$('.cert_img');
+		if(certObj!=null) {
+			$("#sdpridiv .cert_img").showCertTooltip();
+		}
+		cns_serivceurl=$('#hidden_cns_noti_url').val();
+		adddevice_serivceurl=$('#hidden_cns_add_url').val();
+		swc.sdsp.apollo.download.init();	//Repaint page with ATS buttons
+	}, 'html');
+	
+}
+/** Added the below JS method for Publish button */
+
+function publishImage(imageguid,filename,cryToFlag) {
+    document.publishForm.file.value=filename;
+    document.publishForm.crypto.value=cryToFlag;
+    $('#publishForm').submit();
+}
+</script>
+<script src="https://www.static-cisco.com/web/fw/softwareportal/js/sdpri.js" type="text/javascript"></script>
+<script src="https://www.static-cisco.com/web/fw/softwareportal/js/jquery.simplemodal.js" type="text/javascript"></script>
+<script src="https://www.static-cisco.com/web/fw/softwareportal/js/tree_api.js" type="text/javascript"></script>
+<input id="hiddenIdRI" type="hidden" value="0"/>
+<input id="sdprihiddenId" name="sdprihiddenId" type="hidden" value="0"/>
+<input id="sdprinotiname" name="sdprinotiname" type="hidden" value=""/>
+<input id="sdprihidadddev" name="sdprihidadddev" type="hidden" value="1"/>
+<input id="sdprihidnoti" name="sdprihidnoti" type="hidden" value="1"/>
+<div id="cartId" style="display:none;"></div>
+<div style="margin-bottom:12px; ">
+<span name="sas" ng-app="sas" ng-controller="ctrl"></span>
+<input id="sdpri-hidden-ProductIndicator" type="hidden" value="">
+<!--Change by anwasnik for PFM 12417 changing height from 450 to 472-->
+<div class="outerDiv" id="sdpridiv" style="height:472px;">
+<div class="csWrapper">
+<div class="csDashboard" style="padding-top: 0px; padding-bottom: 0px; padding-right: 0px;">
+<!-- .csProductSelectorBreadcrumb .csContain -->
+<!--Breadcrumb Ends Here-->
+<!--Error Starts Here-->
+<!--Error Ends Here-->
+<div id="ptl-sdpriimagedetails-div-id" style="width: 950px;">
+<div style="height: 230px; margin-bottom: 3px;">
+<table style="table-layout: fixed;">
+<tbody>
+<tr>
+<td style="width: 156px;">
+<!-- anwasnik changes to fix view/compare button --> <!-- <div style="width: 156px; text-align: left; vertical-align: top; height:450px; background-color:#F5F5F5"> --->
+<div style="width: 156px; text-align: left; vertical-align: top; height:472px; background-color:#F5F5F5">
+<table border="0" cellpadding="0" cellspacing="0" id="searchTable" width="100%">
+<tbody>
+<tr>
+<td style="width: 225px; vertical-align: top;padding-left:12px;">
+<form action="JavaScript:void(0);" id="mdftree" name="mdftree" onsubmit="searchString(document.mdftree.search.value);" style="display: inline;">
+<label for="search"></label>
+<table cellpadding="0" cellspacing="0" style="margin-top:8px;margin-bottom: 7px;">
+<tbody>
+<tr>
+<td><input align="middle" id="search" name="search" onclick="this.value=''; this.style.color='#000000'" style="color: rgb(204, 204, 204); font-size: 11px; width: 100px; padding-left: 2px; padding-bottom: 2px;height:14px;" type="text" value="Search...">
+</input></td>
+<td><input class="normalBtn" id="releaseSearchBtn" name="submit" src="https://www.static-cisco.com/web/fw/softwareportal/images/Search16.png" style="width:auto;height:auto;padding: 1px; font-size: 11px; cursor: pointer; vertical-align: middle; margin-left: 4px;" type="image">
+</input></td>
+</tr>
+</tbody>
+</table>
+<div id="totResults" style="display: none; color: rgb(102, 102, 102);"></div>
+<div id="lowerLine" style="border-bottom: 1px solid rgb(204, 204, 204); margin: 5px 10px 7px -3px; display: none;">
+</div>
+<div class="treeLinks" style="padding-bottom: 5px; margin-top: -3px;">
+<a href="javascript:openMDFTree()" style="text-decoration: none;" title="Expand all">Expand All</a> | <a href="javascript:closeMDFTree()" style="text-decoration: none;" title="Close all">Collapse All</a>
+</div>
+</form>
+</td>
+<!-- For image listing -->
+<td>
+<table border="0" cellpadding="0" cellspacing="0" style="margin-top: 0px;" summary="" width="100%">
+<tbody>
+<tr valign="top">
+<td><img alt="" height="10" src="https://www.static-cisco.com/web/fw/softwareportal/images/s.gif" title="" width="2"/>
+</td>
+<td class="blueBg" colspan="3"></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<div>
+<div id="treeAndLegend" style="width: 156px;height:390px; overflow: auto; margin-top: 0px; margin-bottom: 5px;background-color:#F5F5F5;">
+<div class="treeOuter" style="min-height:130px; height: auto !important; height: 130px; ">
+<script language="JavaScript">
+				       		   			mdfTree = new tree('mdfTree');
+mdfTree.clearCookie();
+mdfTree.addElementRel(1,-1,'','');
+mdfTree.addElementRel(370, 1, 'Suggested', '');
+mdfTree.addElementRel(2,370, '3.13.6S(ED)', '&mdfid=284389362&flowid=79160&softwareid=282046477&release=3.13.6S&rellifecycle=ED&relind=AVAILABLE&reltype=all', '', '', '', '', '', '', '', 'Y','', '3.13.6S(ED)all',1);
+mdfTree.addElementRel(3,370, '3.16.3S(ED)', '&mdfid=284389362&flowid=79160&softwareid=282046477&release=3.16.3S&rellifecycle=ED&relind=AVAILABLE&reltype=all', '', '', '', '', '', '', '', 'Y','', '3.16.3S(ED)all',1);
+mdfTree.addElementRel(371, 1, 'Latest', '');
+mdfTree.addElementRel(4,371, '3.10.8S(ED)', '&mdfid=284389362&flowid=79160&softwareid=282046477&release=3.10.8S&rellifecycle=ED&relind=AVAILABLE&reltype=latest', '', '', '', '', '', '', '', '','', '3.10.8S(ED)latest',1);
+mdfTree.addElementRel(5,371, '3.13.6S(ED)', '&mdfid=284389362&flowid=79160&softwareid=282046477&release=3.13.6S&rellifecycle=ED&relind=AVAILABLE&reltype=latest', '', '', '', '', '', '', '', 'Y','', '3.13.6S(ED)latest',1);
+mdfTree.addElementRel(6,371, 'Denali-16.3.1(ED)', '&mdfid=284389362&flowid=79160&softwareid=282046477&release=Denali-16.3.1&rellifecycle=ED&relind=AVAILABLE&reltype=latest', '', '', '', '', '', '', '', '','', 'Denali-16.3.1(ED)latest',1);
+mdfTree.addElementRel(7,371, '3.14.4S(ED)', '&mdfid=284389362&flowid=79160&softwareid=282046477&release=3.14.4S&rellifecycle=ED&relind=AVAILABLE&reltype=latest', '', '', '', '', '', '', '', '','', '3.14.4S(ED)latest',1);
+mdfTree.addElementRel(372, 1, 'All Releases', '');
+mdfTree.addElementRel(10,372, '16', '','','','','','','','');
+mdfTree.addElementRel(11,10, 'Denali-16.3', '','','','','','','','');
+mdfTree.addElementRel(12,11, 'Denali-16.3.1(ED)', '&mdfid=284389362&flowid=79160&softwareid=282046477&release=Denali-16.3.1&rellifecycle=ED&relind=AVAILABLE&reltype=all', '', '', '', '', '', '', '', '','', 'Denali-16.3.1(ED)all',10);
+mdfTree.addElementRel(13,10, '16.2', '','','','','','','','');
+mdfTree.addElementRel(14,13, '16.2.2(ED)', '&mdfid=284389362&flowid=79160&softwareid=282046477&release=16.2.2&rellifecycle=ED&relind=AVAILABLE&reltype=all', '', '', '', '', '', '', '', '','', '16.2.2(ED)all',10);
+mdfTree.addElementRel(15,13, '16.2.1(ED)', '&mdfid=284389362&flowid=79160&softwareid=282046477&release=16.2.1&rellifecycle=ED&relind=AVAILABLE&reltype=all', '', '', '', '', '', '', '', '','', '16.2.1(ED)all',10);
+mdfTree.addElementRel(16,372, '3', '','','','','','','','');
+mdfTree.addElementRel(17,16, '3.9S', '','','','','','','','');
+mdfTree.addElementRel(18,17, '3.9.2S(ED)', '&mdfid=284389362&flowid=79160&softwareid=282046477&release=3.9.2S&rellifecycle=ED&relind=AVAILABLE&reltype=all', '', '', '', '', '', '', '', '','', '3.9.2S(ED)all',16);
+mdfTree.addElementRel(19,17, '3.9.1S(ED)', '&mdfid=284389362&flowid=79160&softwareid=282046477&release=3.9.1S&rellifecycle=ED&relind=AVAILABLE&reltype=all', '', '', '', '', '', '', '', '','', '3.9.1S(ED)all',16);
+mdfTree.addElementRel(20,16, '3.17S', '','','','','','','','');
+mdfTree.addElementRel(21,20, '3.17.2S(ED)', '&mdfid=284389362&flowid=79160&softwareid=282046477&release=3.17.2S&rellifecycle=ED&relind=AVAILABLE&reltype=all', '', '', '', '', '', '', '', '','', '3.17.2S(ED)all',16);
+mdfTree.addElementRel(22,20, '3.17.1S(ED)', '&mdfid=284389362&flowid=79160&softwareid=282046477&release=3.17.1S&rellifecycle=ED&relind=AVAILABLE&reltype=all', '', '', '', '', '', '', '', '','', '3.17.1S(ED)all',16);
+mdfTree.addElementRel(23,20, '3.17.0S(ED)', '&mdfid=284389362&flowid=79160&softwareid=282046477&release=3.17.0S&rellifecycle=ED&relind=AVAILABLE&reltype=all', '', '', '', '', '', '', '', '','', '3.17.0S(ED)all',16);
+mdfTree.addElementRel(24,16, '3.16S', '','','','','','','','');
+mdfTree.addElementRel(25,24, '3.16.3S(ED)', '&mdfid=284389362&flowid=79160&softwareid=282046477&release=3.16.3S&rellifecycle=ED&relind=AVAILABLE&reltype=all', '', '', '', '', '', '', '', 'Y','', '3.16.3S(ED)all',16);
+mdfTree.addElementRel(26,24, '3.16.2S(ED)', '&mdfid=284389362&flowid=79160&softwareid=282046477&release=3.16.2S&rellifecycle=ED&relind=AVAILABLE&reltype=all', '', '', '', '', '', '', '', '','', '3.16.2S(ED)all',16);
+mdfTree.addElementRel(27,24, '3.16.1aS(ED)', '&mdfid=284389362&flowid=79160&softwareid=282046477&release=3.16.1aS&rellifecycle=ED&relind=AVAILABLE&reltype=all', '', '', '', '', '', '', '', '','', '3.16.1aS(ED)all',16);
+mdfTree.addElementRel(28,24, '3.16.0cS(ED)', '&mdfid=284389362&flowid=79160&softwareid=282046477&release=3.16.0cS&rellifecycle=ED&relind=AVAILABLE&reltype=all', '', '', '', '', '', '', '', '','', '3.16.0cS(ED)all',16);
+mdfTree.addElementRel(29,16, '3.15S', '','','','','','','','');
+mdfTree.addElementRel(30,29, '3.15.3S(ED)', '&mdfid=284389362&flowid=79160&softwareid=282046477&release=3.15.3S&rellifecycle=ED&relind=AVAILABLE&reltype=all', '', '', '', '', '', '', '', '','', '3.15.3S(ED)all',16);
+mdfTree.addElementRel(31,29, '3.15.2S(ED)', '&mdfid=284389362&flowid=79160&softwareid=282046477&release=3.15.2S&rellifecycle=ED&relind=AVAILABLE&reltype=all', '', '', '', '', '', '', '', '','', '3.15.2S(ED)all',16);
+mdfTree.addElementRel(32,29, '3.15.1cS(ED)', '&mdfid=284389362&flowid=79160&softwareid=282046477&release=3.15.1cS&rellifecycle=ED&relind=AVAILABLE&reltype=all', '', '', '', '', '', '', '', '','', '3.15.1cS(ED)all',16);
+mdfTree.addElementRel(33,16, '3.14S', '','','','','','','','');
+mdfTree.addElementRel(34,33, '3.14.4S(ED)', '&mdfid=284389362&flowid=79160&softwareid=282046477&release=3.14.4S&rellifecycle=ED&relind=AVAILABLE&reltype=all', '', '', '', '', '', '', '', '','', '3.14.4S(ED)all',16);
+mdfTree.addElementRel(35,33, '3.14.3S(ED)', '&mdfid=284389362&flowid=79160&softwareid=282046477&release=3.14.3S&rellifecycle=ED&relind=AVAILABLE&reltype=all', '', '', '', '', '', '', '', '','', '3.14.3S(ED)all',16);
+mdfTree.addElementRel(36,33, '3.14.2S(ED)', '&mdfid=284389362&flowid=79160&softwareid=282046477&release=3.14.2S&rellifecycle=ED&relind=AVAILABLE&reltype=all', '', '', '', '', '', '', '', '','', '3.14.2S(ED)all',16);
+mdfTree.addElementRel(37,33, '3.14.1S(ED)', '&mdfid=284389362&flowid=79160&softwareid=282046477&release=3.14.1S&rellifecycle=ED&relind=AVAILABLE&reltype=all', '', '', '', '', '', '', '', '','', '3.14.1S(ED)all',16);
+mdfTree.addElementRel(38,33, '3.14.0S(ED)', '&mdfid=284389362&flowid=79160&softwareid=282046477&release=3.14.0S&rellifecycle=ED&relind=AVAILABLE&reltype=all', '', '', '', '', '', '', '', '','', '3.14.0S(ED)all',16);
+mdfTree.addElementRel(39,16, '3.13S', '','','','','','','','');
+mdfTree.addElementRel(40,39, '3.13.6S(ED)', '&mdfid=284389362&flowid=79160&softwareid=282046477&release=3.13.6S&rellifecycle=ED&relind=AVAILABLE&reltype=all', '', '', '', '', '', '', '', 'Y','', '3.13.6S(ED)all',16);
+mdfTree.addElementRel(41,39, '3.13.5S(MD)', '&mdfid=284389362&flowid=79160&softwareid=282046477&release=3.13.5S&rellifecycle=MD&relind=AVAILABLE&reltype=all', '', '', '', '', '', '', '', '','', '3.13.5S(MD)all',16);
+mdfTree.addElementRel(42,39, '3.13.4S(MD)', '&mdfid=284389362&flowid=79160&softwareid=282046477&release=3.13.4S&rellifecycle=MD&relind=AVAILABLE&reltype=all', '', '', '', '', '', '', '', '','', '3.13.4S(MD)all',16);
+mdfTree.addElementRel(43,39, '3.13.3S(ED)', '&mdfid=284389362&flowid=79160&softwareid=282046477&release=3.13.3S&rellifecycle=ED&relind=AVAILABLE&reltype=all', '', '', '', '', '', '', '', '','', '3.13.3S(ED)all',16);
+mdfTree.addElementRel(44,39, '3.13.2S(ED)', '&mdfid=284389362&flowid=79160&softwareid=282046477&release=3.13.2S&rellifecycle=ED&relind=AVAILABLE&reltype=all', '', '', '', '', '', '', '', '','', '3.13.2S(ED)all',16);
+mdfTree.addElementRel(45,16, '3.12S', '','','','','','','','');
+mdfTree.addElementRel(46,45, '3.12.3S', '&mdfid=284389362&flowid=79160&softwareid=282046477&release=3.12.3S&rellifecycle=&relind=AVAILABLE&reltype=all', '', '', '', '', '', '', '', '','', '3.12.3Sall',16);
+mdfTree.addElementRel(47,45, '3.12.2S(ED)', '&mdfid=284389362&flowid=79160&softwareid=282046477&release=3.12.2S&rellifecycle=ED&relind=AVAILABLE&reltype=all', '', '', '', '', '', '', '', '','', '3.12.2S(ED)all',16);
+mdfTree.addElementRel(48,45, '3.12.1S(ED)', '&mdfid=284389362&flowid=79160&softwareid=282046477&release=3.12.1S&rellifecycle=ED&relind=AVAILABLE&reltype=all', '', '', '', '', '', '', '', '','', '3.12.1S(ED)all',16);
+mdfTree.addElementRel(49,45, '3.12.0S(ED)', '&mdfid=284389362&flowid=79160&softwareid=282046477&release=3.12.0S&rellifecycle=ED&relind=AVAILABLE&reltype=all', '', '', '', '', '', '', '', '','', '3.12.0S(ED)all',16);
+mdfTree.addElementRel(50,16, '3.11S', '','','','','','','','');
+mdfTree.addElementRel(51,50, '3.11.4S(ED)', '&mdfid=284389362&flowid=79160&softwareid=282046477&release=3.11.4S&rellifecycle=ED&relind=AVAILABLE&reltype=all', '', '', '', '', '', '', '', '','', '3.11.4S(ED)all',16);
+mdfTree.addElementRel(52,50, '3.11.3S(ED)', '&mdfid=284389362&flowid=79160&softwareid=282046477&release=3.11.3S&rellifecycle=ED&relind=AVAILABLE&reltype=all', '', '', '', '', '', '', '', '','', '3.11.3S(ED)all',16);
+mdfTree.addElementRel(53,50, '3.11.2S(ED)', '&mdfid=284389362&flowid=79160&softwareid=282046477&release=3.11.2S&rellifecycle=ED&relind=AVAILABLE&reltype=all', '', '', '', '', '', '', '', '','', '3.11.2S(ED)all',16);
+mdfTree.addElementRel(54,50, '3.11.1S(ED)', '&mdfid=284389362&flowid=79160&softwareid=282046477&release=3.11.1S&rellifecycle=ED&relind=AVAILABLE&reltype=all', '', '', '', '', '', '', '', '','', '3.11.1S(ED)all',16);
+mdfTree.addElementRel(55,16, '3.10S', '','','','','','','','');
+mdfTree.addElementRel(56,55, '3.10.8S(ED)', '&mdfid=284389362&flowid=79160&softwareid=282046477&release=3.10.8S&rellifecycle=ED&relind=AVAILABLE&reltype=all', '', '', '', '', '', '', '', '','', '3.10.8S(ED)all',16);
+mdfTree.addElementRel(57,55, '3.10.7S(MD)', '&mdfid=284389362&flowid=79160&softwareid=282046477&release=3.10.7S&rellifecycle=MD&relind=AVAILABLE&reltype=all', '', '', '', '', '', '', '', '','', '3.10.7S(MD)all',16);
+mdfTree.addElementRel(58,55, '3.10.6S(MD)', '&mdfid=284389362&flowid=79160&softwareid=282046477&release=3.10.6S&rellifecycle=MD&relind=AVAILABLE&reltype=all', '', '', '', '', '', '', '', '','', '3.10.6S(MD)all',16);
+mdfTree.addElementRel(59,55, '3.10.5S(MD)', '&mdfid=284389362&flowid=79160&softwareid=282046477&release=3.10.5S&rellifecycle=MD&relind=AVAILABLE&reltype=all', '', '', '', '', '', '', '', '','', '3.10.5S(MD)all',16);
+mdfTree.addElementRel(60,55, '3.10.4S(MD)', '&mdfid=284389362&flowid=79160&softwareid=282046477&release=3.10.4S&rellifecycle=MD&relind=AVAILABLE&reltype=all', '', '', '', '', '', '', '', '','', '3.10.4S(MD)all',16);
+mdfTree.addElementRel(61,55, '3.10.3S(ED)', '&mdfid=284389362&flowid=79160&softwareid=282046477&release=3.10.3S&rellifecycle=ED&relind=AVAILABLE&reltype=all', '', '', '', '', '', '', '', '','', '3.10.3S(ED)all',16);
+mdfTree.addElementRel(62,55, '3.10.2tS(ED)', '&mdfid=284389362&flowid=79160&softwareid=282046477&release=3.10.2tS&rellifecycle=ED&relind=AVAILABLE&reltype=all', '', '', '', '', '', '', '', '','', '3.10.2tS(ED)all',16);
+mdfTree.addElementRel(63,55, '3.10.2S(ED)', '&mdfid=284389362&flowid=79160&softwareid=282046477&release=3.10.2S&rellifecycle=ED&relind=AVAILABLE&reltype=all', '', '', '', '', '', '', '', '','', '3.10.2S(ED)all',16);
+mdfTree.addElementRel(64,55, '3.10.1S(ED)', '&mdfid=284389362&flowid=79160&softwareid=282046477&release=3.10.1S&rellifecycle=ED&relind=AVAILABLE&reltype=all', '', '', '', '', '', '', '', '','', '3.10.1S(ED)all',16);
+mdfTree.addElementRel(65,55, '3.10.0S(ED)', '&mdfid=284389362&flowid=79160&softwareid=282046477&release=3.10.0S&rellifecycle=ED&relind=AVAILABLE&reltype=all', '', '', '', '', '', '', '', '','', '3.10.0S(ED)all',16);
+mdfTree.addElementRel(373, 1, 'Deferred Releases', '');
+mdfTree.addElementRel(67,373, '3', '');
+mdfTree.addElementRel(68,67, '3.16S', '');
+mdfTree.addElementRel(69,68, '3.16.0S(ED)', '&mdfid=284389362&flowid=79160&softwareid=282046477&release=3.16.0S&rellifecycle=ED&relind=DEFERRED&reltype=deferred', '', '', '', '', '', '', '', '' ,'', '3.16.0S(ED)deferred',67);
+mdfTree.addElementRel(70,67, '3.15S', '');
+mdfTree.addElementRel(71,70, '3.15.1S(ED)', '&mdfid=284389362&flowid=79160&softwareid=282046477&release=3.15.1S&rellifecycle=ED&relind=DEFERRED&reltype=deferred', '', '', '', '', '', '', '', '' ,'', '3.15.1S(ED)deferred',67);
+mdfTree.addElementRel(72,70, '3.15.0S(ED)', '&mdfid=284389362&flowid=79160&softwareid=282046477&release=3.15.0S&rellifecycle=ED&relind=DEFERRED&reltype=deferred', '', '', '', '', '', '', '', '' ,'', '3.15.0S(ED)deferred',67);
+mdfTree.addElementRel(73,67, '3.13S', '');
+mdfTree.addElementRel(74,73, '3.13.1S(ED)', '&mdfid=284389362&flowid=79160&softwareid=282046477&release=3.13.1S&rellifecycle=ED&relind=DEFERRED&reltype=deferred', '', '', '', '', '', '', '', '' ,'', '3.13.1S(ED)deferred',67);
+mdfTree.addElementRel(75,73, '3.13.0S(ED)', '&mdfid=284389362&flowid=79160&softwareid=282046477&release=3.13.0S&rellifecycle=ED&relind=DEFERRED&reltype=deferred', '', '', '', '', '', '', '', '' ,'', '3.13.0S(ED)deferred',67);
+mdfTree.addElementRel(76,67, '3.11S', '');
+mdfTree.addElementRel(77,76, '3.11.0S(ED)', '&mdfid=284389362&flowid=79160&softwareid=282046477&release=3.11.0S&rellifecycle=ED&relind=DEFERRED&reltype=deferred', '', '', '', '', '', '', '', '' ,'', '3.11.0S(ED)deferred',67);
+
+
+document.write(mdfTree);
+function defaultDisplay() {
+mdfTree.openToSingle(372,true);
+mdfTree.openToSingle(370,true);
+mdfTree.openToSingle(2,true);
+mdfTree.openToSingle(370,true);
+mdfTree.openToSingle(3,true);
+mdfTree.openToSingle(10,true);
+mdfTree.openToSingle(16,true);
+ return 
+ }
+function openLatestBucket() {
+mdfTree.openToSingle_Updated(371,true,false,1);
+mdfTree.closeAll();
+mdfTree.openToSingle(370,true);
+ 
+ }
+function closeAllNode() {
+mdfTree.closeNode(6);
+mdfTree.closeNode(63);
+}
+   
+ 										//var itemOpen = 0;
+										if(isImage == true){      
+											openMDFTreeToId(itemOpen);
+											//alert("After opening");
+										} else{
+											
+										}  jQuery("#imdfTree0").hide();
+										 	defaultDisplay();     
+											openLatestBucket();
+											mdfTree.o =function(id) {
+												mdfTree.o1(id);
+												if(this.aNodes[id].name=='All Releases' || this.aNodes[id].name=='Deferred Releases') {
+												this.closeAllChildren(this.aNodes[id]);
+												}
+											} 
+					                </script>
+</div>
+<!-- .treeOuter -->
+</div>
+</div>
+<!-- .treeOuter -->
+<!-- .treeContainer -->
+</div>
+</td>
+<td style="border-left: 1px solid rgb(204, 204, 204); text-align: left; vertical-align: top;width:800px;" width="*">
+<div id="RIAjaxResponseDIV">
+<table cellpadding="0" cellspacing="0" id="releasetitle" width="100%">
+<tr>
+<!--US428-SWFE -->
+<td style="padding-top:12px;padding-left:6px;padding-bottom:12px; vertical-align: middle;width:395px">
+<div style="color: #3F3F3F;font-size: 14px;font-weight: bold; float:left;word-break:break-all;max-width:225px">Select a Release
+														<!--changes by anwasnik removed spaces and added padding at the anchor-->
+</div>
+<div id="rnrService" style="float:left;width:120px;"></div>
+</td>
+<td style="width:350px;text-align:right; padding:6px; vertical-align: middle;word-break:break-all;"><table align="right" border="0" cellpadding="0" cellspacing="0">
+<!--changes done by anwasnik(only made right;padding:7px; to right;padding:8px;)-->
+<tr>
+<td style="text-align:right;">
+<!--Added style here -->
+</td>
+</tr>
+</table>
+</td>
+<td style="width:80px;">
+<div class="csProductSelectorBreadcrumbTrail csContain" style="overflow: visible; padding-right: 0px;">
+<table cellpadding="0" cellspacing="0" width="100%">
+<tbody>
+<tr class="showForImageList" id="bcIconsTr">
+<td colspan="2">
+<table cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td style="padding-top:6px;padding-bottom:6px;">
+<!--changed padding from 10px to 6px--> <!--changing code from here -anwasnik ---->
+<!--<table cellspacing="0" cellpadding="0" style="border-left:1px solid #CCC"> ---->
+<table cellpadding="0" cellspacing="0" style="border-left:1px solid #CCC;text-align: left;">
+<tr>
+<td id="addDevSetNotiTd" style="padding-left:0px;padding-right:0px; padding-bottom: 2px;"></td>
+<!--<td style="padding-right:8px;text-decoration:none; vertical-align: middle; padding-bottom: 2px; font-size:12px;">Add Device</td>-->
+</tr>
+<tr>
+<td id="SetNotiSpan" style="padding-left:0px;padding-right:0px; padding-bottom: 2px;"></td>
+<!--<td style="padding-right:8px;text-decoration:none; vertical-align: middle; padding-bottom: 1px; font-size:12px;">Add Notification</td>-->
+</tr>
+</table> <!--changes ended here -anwasnik-->
+<!-- Notification Alert Message Window -->
+<div class="saFormDiv jqmID6" id="notification-confirm" style="display:none;width:618px;padding:12px;background: white;filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#F3F3F3');background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#F3F3F3));background: -moz-linear-gradient(top,  #FFFFFF,  #F3F3F3);">
+<table border="0" cellpadding="3" cellspacing="0" width="100%">
+<tr>
+<td colspan="2"><h5 style="font-size: 14px; font-weight: bold;">Set
+																											Cisco Notification Alert</h5></td>
+<td style="text-align:right"><a href="javascript:hideDeleteConfirm()"> <img height="16" src="https://www.static-cisco.com/web/fw/softwareportal/images/overlay_close.png" style="border:0px solid #FFF" width="16"/> </a></td>
+</tr>
+<tr>
+<td colspan="2"><div class="notierrmsg" id="notierr">Error msg</div></td>
+</tr>
+<tr>
+<td>Product:</td>
+<td>4451-X Integrated Services Router</td>
+</tr>
+<tr>
+<td>Software Type:</td>
+<td>IOS XE Software</td>
+</tr>
+<tr>
+<td>Release:</td>
+<td>null</td>
+</tr>
+<tr>
+<td>Notification Name:</td>
+<td>
+<!-- prkishan addition for 11280 -->
+<div id="main" style="width:200px; height:30px;"></div>
+</td>
+</tr>
+<tr>
+<td colspan="2" style="font-size:11px;font-family:Arial;" valign="top">An <select class="" id="et" name="et">
+<option value="Email W/Links and Description">Email
+																												with links and summaries</option>
+<option value="Email W/Links (Short Form)">Email
+																												with links only</option>
+</select> <span id="etext1"> delivered </span>
+<select id="ef" name="ef" style="font-size:11px;">
+<option value="Daily">Daily Summary</option>
+<option value="Weekly">Weekly
+																												Summary</option>
+<option value="Monthly">Monthly
+																												Summary</option>
+</select> <span id="etext2"> to </span> <label for="emailid"></label> <input class="text" id="ea" name="ea" onkeyup="enableNotiSaveCont();" style="width: 145px;" type="text" value=""/>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="padding-top:7px"><hr style="margin:0px"/></td>
+</tr>
+<tr>
+<td colspan="2">
+<input class="prmActionBtn btnBottomPadding" disabled="" id="notisave" name="notisave" onclick="saveNoti()" style="margin-bottom: 4px; margin-top: 4px;margin-right:4px" type="button" value="OK">  <input class="normalBtn btnBottomPadding" id="delete-cancel-btn" onclick="hideDeleteConfirm()" style="margin-bottom: 4px;" type="button" value="Cancel">
+</input></input></td>
+</tr>
+</table>
+</div>
+</td>
+<td style="vertical-align: bottom;">
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div></td>
+</tr>
+<tr>
+<td colspan="3"><span id="adddevconfirmmsg" style="width:280px;float:right;margin:0px">This
+															device has been saved to 'My Devices' list</span> <span id="noticonfirmmsg" style="width:280px;float:right;margin:0px">Cisco
+															Notification alert has been set on the device</span></td>
+</tr>
+</table>
+<form method="post" name="sdpriform">
+<div style="display:none">
+<label for="viewF"></label> <input id="viewF" name="viewF" type="checkbox"/>
+</div>
+<!-- Start New Changes -->
+<table border="0" cellpadding="0" cellspacing="0" class="imageListHeader" style="width:100%;">
+<thead>
+<tr class="imageHeaderTr" id="imageHeaderTr">
+<th class="compareTD">Compare </th>
+<th class="fileTD" id="fileTH">File
+																Information  <img class="asc" src="https://www.static-cisco.com/web/fw/softwareportal/images/tree_arrow_up.png"/>
+</th>
+<th class="releaseTD" id="releaseTH">Release Date
+																 <img class="asc" src="https://www.static-cisco.com/web/fw/softwareportal/images/tree_arrow_up.png"/>
+</th>
+<th class="addToCart"> </th>
+</tr>
+</thead>
+</table>
+<div id="imageRhSide" style="height:363px; width:800px;overflow: auto; overflow-x:hidden">
+<table border="0" cellpadding="0" cellspacing="0" class="imageListTable" id="imageTableContainer" style="width:100%;">
+<thead style="display:none">
+<tr>
+<th> </th>
+<th id="fileID"> </th>
+<th id="releaseID"> </th>
+<th> </th>
+</tr>
+</thead>
+<tbody id="imageTableBodyContainer">
+</tbody>
+</table>
+<!--  Related Information -->
+</div>
+<!-- End New Changes-->
+</form>
+<div class="item-no-caret" style="text-align: left; vertical-align: middle;padding-left:10px;border-top:1px solid #CCC; padding-top:7px; ">
+<input class="hand swDLButton" disabled="disabled" id="scCompareButton" name="scCompareButton" onclick="callImgFeatAction()" style="width:150px !important" title="Please select one image to view features or two images to compare features." type="button" value="View/Compare Features"> <span id="selectMesg" style="padding-bottom: 5px;padding-left:10px;vertical-align: middle; text-align: left;"><font color="black" face="Arial" size="1"> Up to 2 files</font> </span>
+</input></div>
+</div> <script language="javascript" type="text/javascript">
+											/**
+												Updating the query string 
+											 */
+											$(document)
+													.ready(
+															function() {
+																// Added to below code to change the scroll div height dynamically.
+																var riDivHeight = $(
+																		'#RIAjaxResponseDIV')
+																		.innerHeight();
+																if (riDivHeight != null
+																		&& riDivHeight > 450) {
+																	var extraHeight = riDivHeight - 445;
+																	var rheight = $(
+																			'#imageRhSide')
+																			.innerHeight();
+																	if (rheight != null) {
+																		var adjHeight = rheight
+																				- extraHeight
+																				+ "px";
+																		$(
+																				'#imageRhSide')
+																				.css(
+																						"height",
+																						adjHeight);
+																	}
+																}
+																var relSwTable = $("#relImageTableContainer");
+																if (showViewCompare) {
+																	// Changes by prkishan for PFM# 12732, release date sorting issue
+																	if(isIOS=="true"){
+																		$(
+																			"#imageTableContainer")
+																			.tablesorter(
+																					{
+																						headers : {
+																							0 : {
+																								sorter : false
+																							},
+																							1:	{
+																								sorter: "text"
+																							},
+																							2 : {
+																								sorter : "shortDate"
+																							},
+																							3 : {
+																								sorter : "text"
+																							},
+																							4 : {
+																								sorter : false
+																							}
+																						},
+																						widgets : [ 'zebra' ],
+																						widgetZebra : {
+																							css : [
+																									'odd',
+																									'even' ]
+																						}
+																		});
+																	}
+																	else if(isNONIOS=="true"){
+																		$(
+																			"#imageTableContainer")
+																			.tablesorter(
+																					{
+																						headers : {
+																							0 : {
+																								sorter : false
+																							},
+																							1:	{
+																								sorter: "text"
+																							},
+																							2 : {
+																								sorter : "shortDate"
+																							},
+																							3 : {
+																								sorter : "fileSizeSort"
+																							},
+																							4 : {
+																								sorter : false
+																							}
+																						},
+																						widgets : [ 'zebra' ],
+																						widgetZebra : {
+																							css : [
+																									'odd',
+																									'even' ]
+																						}
+																		});
+																	}
+																	if (relSwTable != null) {
+																		// Changes by prkishan for PFM# 12732, file size sorting issue
+																		if (isIOS=="true"){
+																			$(
+																				"#relImageTableContainer")
+																				.tablesorter(
+																						{
+																							headers : {
+																								0 : {
+																									sorter : false
+																								},
+																								1 :{
+																									sorter: "text"
+																								},
+																								2 : {
+																									sorter : "shortDate"
+																								},
+																								3 : {
+																									sorter : "text"
+																								},
+																								4 : {
+																									sorter : false
+																								}
+																							},
+																							widgets : [ 'zebra' ],
+																							widgetZebra : {
+																								css : [
+																										'odd',
+																										'even' ]
+																							}
+																			});
+																		}
+																		else if(isNONIOS=="true"){
+																		$(
+																				"#relImageTableContainer")
+																				.tablesorter(
+																						{
+																							headers : {
+																								0 : {
+																									sorter : false
+																								},
+																								1 :{
+																									sorter: "text"
+																								},
+																								2 : {
+																									sorter : "shortDate"
+																								},
+																								3 : {
+																									sorter : "fileSizeSort"
+																								},
+																								4 : {
+																									sorter : false
+																								}
+																							},
+																							widgets : [ 'zebra' ],
+																							widgetZebra : {
+																								css : [
+																										'odd',
+																										'even' ]
+																							}
+																			});
+																	}
+																	}
+																} else {
+																	// Changes by prkishan for PFM# 12732, file size sorting issue
+																	if(isIOS=="true"){
+																		$(
+																			"#imageTableContainer")
+																			.tablesorter(
+																					{
+																						headers : {
+																							0 : {
+																								sorter: "text"
+																							},
+																							1 : {
+																								sorter : "shortDate"
+																							},
+																							2 : {
+																									sorter : "text"
+																								},
+																							3 : {
+																								sorter : false
+																							}
+																						},
+																						widgets : [ 'zebra' ],
+																						widgetZebra : {
+																							css : [
+																									'odd',
+																									'even' ]
+																						}
+																		});
+																	}
+																	else if(isNONIOS=="true"){
+																		$(
+																			"#imageTableContainer")
+																			.tablesorter(
+																					{
+																						headers : {
+																							0 : {
+																								sorter: "text"
+																							},
+																							1 : {
+																								sorter : "shortDate"
+																							},
+																							2 : {
+																									sorter : "fileSizeSort"
+																								},
+																							3 : {
+																								sorter : false
+																							}
+																						},
+																						widgets : [ 'zebra' ],
+																						widgetZebra : {
+																							css : [
+																									'odd',
+																									'even' ]
+																						}
+																		});
+																	}
+																	if (relSwTable != null) {
+																		// Changes by prkishan for PFM# 12732, file size sorting issue
+																		//$("#relImageTableContainer").tablesorter({headers: {3:{sorter: false}},widgets: ['zebra'],widgetZebra: {css: ['odd','even']}});
+																		if(isIOS=="true"){
+																			$(
+																				"#relImageTableContainer")
+																				.tablesorter(
+																						{
+																							headers : {
+																								0 : {
+																									sorter: "text"
+																								},
+																								1 : {
+																									sorter : "shortDate"
+																								},
+																								2 : {
+																									sorter : "text"
+																								},
+																								3 : {
+																									sorter : false
+																								}
+																							},
+																							widgets : [ 'zebra' ],
+																							widgetZebra : {
+																								css : [
+																										'odd',
+																										'even' ]
+																							}
+																			});
+																		}
+																		else if(isNONIOS=="true"){
+																			$(
+																				"#relImageTableContainer")
+																				.tablesorter(
+																						{
+																							headers : {
+																								0 : {
+																									sorter: "text"
+																								},
+																								1 : {
+																									sorter : "shortDate"
+																								},
+																								2 : {
+																									sorter : "fileSizeSort"
+																								},
+																								3 : {
+																									sorter : false
+																								}
+																							},
+																							widgets : [ 'zebra' ],
+																							widgetZebra : {
+																								css : [
+																										'odd',
+																										'even' ]
+																							}
+																			});
+																		}
+																	}
+																}
+																/** The below code added for table sorting */
+																$('#fileTH')
+																		.click(
+																				function() {
+																					$(
+																							'#fileTH')
+																							.removeClass(
+																									'selColumn');
+																					$(
+																							'#releaseTH')
+																							.removeClass(
+																									'selColumn');
+																					var dm = $('#dramTH');
+																					if (dm != null) {
+																						$(
+																								'#dramTH')
+																								.removeClass(
+																										'selColumn');
+																					}
+																					var sz = $('#sizeTH');
+																					if (sz != null) {
+																						$(
+																								'#sizeTH')
+																								.removeClass(
+																										'selColumn');
+																					}
+																					$(
+																							'#fileTH')
+																							.addClass(
+																									'selColumn');
+																					var sortingOrder = $(
+																							'#fileTH img')
+																							.attr(
+																									'class');
+																					var sortOrder = (sortingOrder != null && sortingOrder == 'asc') ? 0
+																							: 1;
+																					if (sortingOrder != null
+																							&& sortingOrder == 'asc') {
+																						$(
+																								'#fileTH img')
+																								.attr(
+																										'src',
+																										sortArrowUpSrc);
+																						$(
+																								'#fileTH img')
+																								.removeClass(
+																										'asc')
+																								.addClass(
+																										'dsc');
+																					} else {
+																						$(
+																								'#fileTH img')
+																								.attr(
+																										'src',
+																										sortArrowDnSrc);
+																						$(
+																								'#fileTH img')
+																								.removeClass(
+																										'dsc')
+																								.addClass(
+																										'asc');
+																					}
+																					/** Added code for Sorting */
+																					var colIndex = (showViewCompare == true) ? 1
+																							: 0;
+																					var sorting = [ [
+																							colIndex,
+																							sortOrder ] ];
+																					$(
+																							"#imageTableContainer")
+																							.trigger(
+																									"sorton",
+																									[ sorting ]);
+																					if (relatedSofware != null
+																							&& relatedSofware == 'true') {
+																						$(
+																								"#relImageTableContainer")
+																								.trigger(
+																										"sorton",
+																										[ sorting ]);
+																					}
+																					return true;
+																				});
+
+																$('#releaseTH')
+																		.click(
+																				function() {
+																					$(
+																							'#fileTH')
+																							.removeClass(
+																									'selColumn');
+																					$(
+																							'#releaseTH')
+																							.removeClass(
+																									'selColumn');
+																					var dm = $('#dramTH');
+																					if (dm != null) {
+																						$(
+																								'#dramTH')
+																								.removeClass(
+																										'selColumn');
+																					}
+																					var sz = $('#sizeTH');
+																					if (sz != null) {
+																						$(
+																								'#sizeTH')
+																								.removeClass(
+																										'selColumn');
+																					}
+																					$(
+																							'#releaseTH')
+																							.addClass(
+																									'selColumn');
+																					var sortingOrder = $(
+																							'#releaseTH img')
+																							.attr(
+																									'class');
+																					var sortOrder = (sortingOrder != null && sortingOrder == 'asc') ? 0
+																							: 1;
+																					if (sortingOrder != null
+																							&& sortingOrder == 'asc') {
+																						$(
+																								'#releaseTH img')
+																								.attr(
+																										'src',
+																										sortArrowUpSrc);
+																						$(
+																								'#releaseTH img')
+																								.removeClass(
+																										'asc')
+																								.addClass(
+																										'dsc');
+																					} else {
+																						$(
+																								'#releaseTH img')
+																								.attr(
+																										'src',
+																										sortArrowDnSrc);
+																						$(
+																								'#releaseTH img')
+																								.removeClass(
+																										'dsc')
+																								.addClass(
+																										'asc');
+																					}
+																					/** Added code for Sorting */
+																					var colIndex = (showViewCompare == true) ? 2
+																							: 1;
+																					var sorting = [ [
+																							colIndex,
+																							sortOrder ] ];
+																					$(
+																							"#imageTableContainer")
+																							.trigger(
+																									"sorton",
+																									[ sorting ]);
+																					if (relatedSofware != null
+																							&& relatedSofware == 'true') {
+																						$(
+																								"#relImageTableContainer")
+																								.trigger(
+																										"sorton",
+																										[ sorting ]);
+																					}
+																					return true;
+																				});
+																$('#dramTH')
+																		.click(
+																				function() {
+																					$(
+																							'#fileTH')
+																							.removeClass(
+																									'selColumn');
+																					$(
+																							'#releaseTH')
+																							.removeClass(
+																									'selColumn');
+																					var dm = $('#dramTH');
+																					if (dm != null) {
+																						$(
+																								'#dramTH')
+																								.removeClass(
+																										'selColumn');
+																					}
+																					var sz = $('#sizeTH');
+																					if (sz != null) {
+																						$(
+																								'#sizeTH')
+																								.removeClass(
+																										'selColumn');
+																					}
+
+																					$(
+																							'#dramTH')
+																							.addClass(
+																									'selColumn');
+																					var sortingOrder = $(
+																							'#dramTH img')
+																							.attr(
+																									'class');
+																					var sortOrder = (sortingOrder != null && sortingOrder == 'asc') ? 0
+																							: 1;
+																					if (sortingOrder != null
+																							&& sortingOrder == 'asc') {
+																						$(
+																								'#dramTH img')
+																								.attr(
+																										'src',
+																										sortArrowUpSrc);
+																						$(
+																								'#dramTH img')
+																								.removeClass(
+																										'asc')
+																								.addClass(
+																										'dsc');
+																					} else {
+																						$(
+																								'#dramTH img')
+																								.attr(
+																										'src',
+																										sortArrowDnSrc);
+																						$(
+																								'#dramTH img')
+																								.removeClass(
+																										'dsc')
+																								.addClass(
+																										'asc');
+																					}
+																					/** Added code for Sorting */
+																					var colIndex = (showViewCompare == true) ? 3
+																							: 2;
+																					var sorting = [ [
+																							colIndex,
+																							sortOrder ] ];
+																					$(
+																							"#imageTableContainer")
+																							.trigger(
+																									"sorton",
+																									[ sorting ]);
+																					if (relatedSofware != null
+																							&& relatedSofware == 'true') {
+																						$(
+																								"#relImageTableContainer")
+																								.trigger(
+																										"sorton",
+																										[ sorting ]);
+																					}
+																					return true;
+																				});
+																$('#sizeTH')
+																		.click(
+																				function() {
+																					$(
+																							'#fileTH')
+																							.removeClass(
+																									'selColumn');
+																					$(
+																							'#releaseTH')
+																							.removeClass(
+																									'selColumn');
+																					var dm = $('#dramTH');
+																					if (dm != null) {
+																						$(
+																								'#dramTH')
+																								.removeClass(
+																										'selColumn');
+																					}
+																					var sz = $('#sizeTH');
+																					if (sz != null) {
+																						$(
+																								'#fileTH')
+																								.removeClass(
+																										'selColumn');
+																					}
+																					$(
+																							'#sizeTH')
+																							.addClass(
+																									'selColumn');
+																					var sortingOrder = $(
+																							'#sizeTH img')
+																							.attr(
+																									'class');
+																					var sortOrder = (sortingOrder != null && sortingOrder == 'asc') ? 0
+																							: 1;
+																					if (sortingOrder != null
+																							&& sortingOrder == 'asc') {
+																						$(
+																								'#sizeTH img')
+																								.attr(
+																										'src',
+																										sortArrowUpSrc);
+																						$(
+																								'#sizeTH img')
+																								.removeClass(
+																										'asc')
+																								.addClass(
+																										'dsc');
+																					} else {
+																						$(
+																								'#sizeTH img')
+																								.attr(
+																										'src',
+																										sortArrowDnSrc);
+																						$(
+																								'#sizeTH img')
+																								.removeClass(
+																										'dsc')
+																								.addClass(
+																										'asc')
+																					}
+																					/** Added code for Sorting */
+																					var colIndex = (showViewCompare == true) ? 3
+																							: 2;
+																					var sorting = [ [
+																							colIndex,
+																							sortOrder ] ];
+																					$(
+																							"#imageTableContainer")
+																							.trigger(
+																									"sorton",
+																									[ sorting ]);
+																					if (relatedSofware != null
+																							&& relatedSofware == 'true') {
+																						$(
+																								"#relImageTableContainer")
+																								.trigger(
+																										"sorton",
+																										[ sorting ]);
+																					}
+																					return true;
+																				});
+																// Added for hover overlay popup   						
+																$(
+																		"#imageRhSide .overlay_img")
+																		.getImageInfo();
+																var certObj = $('.cert_img');
+																if (certObj != null) {
+																	$(
+																			"#sdpridiv .cert_img")
+																			.showCertTooltip();
+																	$(
+																			'.cert_img')
+																			.css(
+																					"width",
+																					"auto");
+																	$(
+																			'.cert_img')
+																			.css(
+																					"height",
+																					"auto");
+																}
+																/** Added for SDSP S3 Integration */
+																var suggestObj = $('.suggest_img');
+																if (suggestObj != null) {
+																	$(
+																			"#sdpridiv .suggest_img")
+																			.showCertTooltip();
+																}
+																// Added for tree node selection
+																$(".treeNode a")
+																		.click(
+																				function() {
+																					jQuery(
+																							'.nodeSel')
+																							.removeClass(
+																									'nodeSel');
+																					jQuery(
+																							this)
+																							.addClass(
+																									'nodeSel');
+																					var eid = jQuery(
+																							this)
+																							.attr(
+																									"id");
+																					//alert('eid'+eid);
+																					if (eid != null
+																							&& eid != 'undefined'
+																							&& eid
+																									.indexOf("smdfTree") != -1) {
+																						var relVer = this.innerHTML;
+																						//alert('updateBCRelease relVer'+relVer);
+																						updateBCRelease(relVer);
+
+																						if (relVer != null
+																								&& relVer != "") {
+																							var strArr = new Array(
+																									"(ED)",
+																									"(MD)",
+																									"(GD)",
+																									"(LD)",
+																									"(DF)");
+																							for (i = 0; i < strArr.length; i++) {
+																								relVer = relVer
+																										.replace(
+																												strArr[i],
+																												"");
+																								relVer = jQuery
+																										.trim(relVer);
+																							}
+																							//updateReleaseNotes(relVer);
+																						}
+																					}
+																				});
+																			showAddDev();	
+															});
+											loadRNR(pv_mdfid_i, pv_mto_i);
+											
+										</script>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="ptl-content-sdsImage" id="ptl-contractwarning-div-id" style="display:none;height:135px;padding-top:10px;border:none;border-top:1px solid #cccccc;">
+<div class="csWrapper">
+<div class="csDashboard" style="padding-top: 0px;">
+<table><tr><td width="40px"><img alt="Error" class="error" src="/web/fw/softwareportal/images/alert_critical_2000_32.png"/></td><td> To Download this software, you must have a valid service contract associated to your Cisco.com profile.</td></tr><tr><td> </td><td>If you do not have a service contract you can get one through:<ul style="padding-bottom: 0px; padding-left: 10px; list-style-type: disc; list-style-position: inside;"><p style="margin-left: 40px;"></p><li>Your Cisco Account Team if you have a direct purchase agreement with Cisco</li><p style="margin-left: 40px;"></p><li>Your Cisco Partner or Reseller</li></ul></td></tr><tr><td>  </td><td>Once you have the service contract you must associate your service contract to your Cisco.com user ID with <a href="https://tools.cisco.com/RPF/profile/edit_entitlement.do?Tab=3">Profile Manager</a></td></tr><tr><td colspan="2"> </td></tr></table>;
+						</div>
+</div>
+</div>
+<div class="ptl-content-sdsImage" id="ptl-loginwarning-div-id" style="display:none;height:140px;padding-top:10px;border:none;border-top:1px solid #cccccc;">
+<div class="csWrapper">
+<div class="csDashboard" style="padding-top: 0px;">
+<table><tr><td width="40px"><img alt="Error" class="error" src="/web/fw/softwareportal/images/alert_critical_2000_32.png"/></td><td>To Download this software, you must <a href="javascript:swc.sdsp.download.loginAndComeBack();">Log In</a> with your Cisco.com user ID.</td></tr><tr><td colspan="2"> </td></tr></table>;
+						</div>
+</div>
+</div>
+<div class="ptl-content-sdsImage" id="ptl-logincontractwarning-div-id" style="display:none;height:200px;padding-top:10px;border:none;border-top:1px solid #cccccc;">
+<div class="csWrapper">
+<div class="csDashboard" style="padding-top: 0px;">
+<table><tr><td width="40px"><img alt="Error" class="error" src="/web/fw/softwareportal/images/alert_critical_2000_32.png"/></td><td> To Download this software, you must <a href="javascript:swc.sdsp.download.loginAndComeBack();">Log In</a> and have a valid service contract associated to your Cisco.com profile.</td></tr><tr><td> </td><td>If you do not have a service contract you can get one through:<ul style="padding-bottom: 0px; padding-left: 10px; list-style-type: disc; list-style-position: inside;"><p style="margin-left: 40px;"></p><li>Your Cisco Account Team if you have a direct purchase agreement with Cisco</li><p style="margin-left: 40px;"></p><li>Your Cisco Partner or Reseller</li></ul></td></tr><tr><td>  </td><td>Once you have the service contract you must associate your service contract to your Cisco.com user ID with <a href="https://tools.cisco.com/RPF/profile/edit_entitlement.do?Tab=3">Profile Manager</a></td></tr><tr><td colspan="2"> </td></tr></table>;
+						</div>
+</div>
+</div>
+<div id="ptl-rnp-enf-message" style="display:none;">
+<table><tr><td width="40px"><img alt="Error" class="error" src="/web/fw/softwareportal/images/alert_critical_2000_32.png"/></td><td> Cisco service contract information indicates you are not authorized to download software for the following product(s):</td></tr><tr><td> </td><td><b>4451-X Integrated Services Router</b></td></tr><tr><td> </td><td>If you are downloading from the Cart, please remove software for the product(s) listed above to proceed with other software downloads.</td></tr><tr><td>  </td><td>Or, if you feel this message is in error, please:<ol style="margin-left:2em;"><li>Email <a href="mailto:ent-dl@cisco.com">technical support</a> for 24x7 assistance. To expedite your request, please include the following information:<ul style="list-style-type:none"><li>User ID (Cisco.com ID used to download software)</li><li>Contact Name</li><li>Company Name</li><li>Contract Number</li><li>Product ID</li><li>Desired Software Release or File Name</li><li>Please include a screen shot of this page</li></ul><li>Contact your Cisco representative, Partner or Reseller to ensure product(s) listed above are covered on a service contract that is associated to your Cisco.com profile. The <a href="http://tools.cisco.com/WWChannels/LOCATR/openBasicSearch.do" target="_blank">Partner Locator</a> link may assist in locating your nearest partner.</li><li>You can add the service contracts for these products to your profile using the Cisco <a href="http://www.cisco.com/web/Downloads/SDS/unentitled_instructions.html" target="_blank">Profile Manager</a>, or have your service administrator do this for you.</li><ol></ol></li></ol></td></tr><tr><td colspan="2"> </td></tr></table>
+</div>
+</div>
+</div>
+</div>
+</input></div>
+<script type="text/javascript">
+				msgLoginURL = window.location.href;		
+				msgLoginURL = msgLoginURL.replace("/download/release.html","/download/cart.html");	
+			 </script>
+<script type="text/javascript">//showContractMsg(false);</script>
+<script src="https://www.static-cisco.com/web/fw/softwareportal/js/apollorelease.js" type="text/javascript"></script>
+<script src="https://www.static-cisco.com/web/fw/softwareportal/js/K9Form.js" type="text/javascript"></script>
+<form action="https://swds.cisco.com/cgi-bin/sfp/specialpub.cgi" id="publishForm" method="post" name="publishForm">
+<input name="file" type="hidden" value=""> <input name="crypto" type="hidden" value=""> <input name="menu" type="hidden" value="step3"> <input name="number_upload" type="hidden" value="1"> <input name="ProductType" type="hidden" value="Other">
+</input></input></input></input></input></form>
+</link></link></link></link></link></link></link></link></link></link></link></link></div>
+</td>
+</tr>
+</table>
+<!-- Begin fat footer include: /raw/cisco/web/siteassets/fatfooter.html -->
+<!-- BEGIN MasterBrand FatFooter SSI (generic), $Revision: 1.2 $ -->
+<div id="ff">
+<div class="ffoot clearfix">
+<div class="ffoot-col">
+<div class="ffoot-block">
+<h3><a href="//www.cisco.com/c/en/us/solutions/index.html">Solutions for:</a></h3>
+<ul>
+<li><a href="//www.cisco.com/c/en/us/solutions/small-business.html">Small Business</a></li>
+<li><a href="//www.cisco.com/c/en/us/solutions/midsize/overview.html">Midsize Business</a></li>
+<li><a href="//www.cisco.com/c/en/us/solutions/service-provider/index.html">Service Provider</a></li>
+</ul>
+</div>
+<div class="ffoot-menu">
+<h3><a href="//www.cisco.com/c/en/us/solutions/industries.html">Industries</a></h3>
+<div class="ffoot-menucontainer">
+<div class="ffoot-menucontent" id="industriesmenu">
+<ul>
+<li><a href="/content/en/us/solutions/industries/automotive.html">Automotive</a></li>
+<li><a href="/content/en/us/solutions/industries/consumer-packaged-goods.html">Consumer Packaged Goods</a></li>
+<li><a href="/content/en/us/solutions/industries/education.html">Education</a></li>
+<li><a href="/content/en/us/solutions/industries/energy.html">Energy</a></li>
+<li><a href="/content/en/us/solutions/industries/financial-services.html">Financial Services</a></li>
+<li><a href="/content/en/us/solutions/industries/government.html">Government</a></li>
+<li><a href="/content/en/us/solutions/industries/healthcare.html">Healthcare</a></li>
+<li><a href="/content/en/us/solutions/industries/hospitality.html">Hospitality</a></li>
+<li><a href="/content/en/us/solutions/industries/life-sciences.html">Life Sciences</a></li>
+</ul>
+<ul>
+<li><a href="/content/en/us/solutions/industries/manufacturing.html">Manufacturing</a></li>
+<li><a href="/content/en/us/solutions/industries/materials-mining.html">Materials and Mining</a></li>
+<li><a href="/content/en/us/solutions/industries/public-sector.html">Public Sector</a></li>
+<li><a href="/content/en/us/solutions/industries/retail.html">Retail</a></li>
+<li><a href="/content/en/us/solutions/industries/smart-connected-communities.html">Smart+Connected Communities</a></li>
+<li><a href="/content/en/us/solutions/industries/sports-entertainment.html">Sports and Entertainment</a></li>
+<li><a href="/content/en/us/solutions/industries/transportation.html">Transportation</a></li>
+<li><a href="/content/en/us/solutions/industries/workplace-transformation.html">Workspace Transformation</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="ffoot-block">
+<h3><a href="/cisco/web/siteassets/contacts/index.html">Contacts</a></h3>
+<ul>
+<li><a href="/cisco/web/siteassets/contacts/index.html">Contact Cisco</a></li>
+<li><a href="http://www.cisco.com/c/en/us/solutions/partner-ecosystem.html">Meet our Partners</a></li>
+<li><a href="http://tools.cisco.com/WWChannels/LOCATR/openBasicSearch.do">Find a Reseller</a></li>
+</ul>
+</div>
+</div> <!-- end .ffoot-col -->
+<div class="ffoot-col">
+<div class="ffoot-block">
+<h3><a href="https://newsroom.cisco.com/">News &amp; Alerts</a></h3>
+<ul>
+<li><a href="https://newsroom.cisco.com/">Newsroom</a></li>
+<li><a href="http://blogs.cisco.com/">Blogs</a></li>
+<li><a href="//www.cisco.com/c/en/us/support/web/tsd-products-field-notice-summary.html">Field Notices</a></li>
+<li><a href="http://tools.cisco.com/security/center/publicationListing.x">Security Advisories</a></li>
+</ul>
+</div>
+<div class="ffoot-block">
+<h3><a href="/content/en/us/solutions/technology-trends.html">Technology Trends</a></h3>
+<ul>
+<li><a href="/content/en/us/solutions/cloud/overview.html">Cloud</a></li>
+<li><a href="/content/en/us/solutions/internet-of-things/overview.html">Internet of Things (IoT)</a></li>
+<li><a href="/content/en/us/solutions/software-defined-networking/overview.html">Software Defined Networking (SDN)</a></li>
+</ul>
+</div>
+</div> <!-- end .ffoot-col -->
+<div class="ffoot-col">
+<div class="ffoot-block">
+<h3><a href="http://www.cisco.com/c/en/us/support/index.html">Support</a></h3>
+<ul>
+<li><a href="/cisco/pub/software/portal/select.html?i=!ch">Downloads</a></li>
+<li><a href="/cisco/web/psa/default.html">Documentation</a></li>
+</ul>
+</div>
+<div class="ffoot-block">
+<h3><a href="https://communities.cisco.com/welcome">Communities</a></h3>
+<ul>
+<li><a href="https://www.myciscocommunity.com/community/technology/collaboration">Collaboration</a></li>
+<li><a href="http://developer.cisco.com/">DevNet</a></li>
+<li><a href="https://learningnetwork.cisco.com/index.jspa?ciscoHome=true">Learning Network</a></li>
+<li><a href="https://supportforums.cisco.com/index.jspa">Support Community</a></li>
+</ul>
+</div>
+<div class="ffoot-block">
+<div class="ffoot-menu">
+<h3><a href="http://video.cisco.com" target="_blank">Video Portal</a></h3>
+<div class="ffoot-menucontainer">
+<div class="ffoot-menucontent" id="videomenu">
+<ul>
+<li><a href="http://video.cisco.com/#category/videos/certifications" target="_blank">Certifications</a></li>
+<li><a href="http://video.cisco.com/#category/videos/events" target="_blank">Events</a></li>
+<li><a href="http://video.cisco.com/#category/videos/industries" target="_blank">Industries</a></li>
+<li><a href="http://video.cisco.com/#category/videos/inside-cisco" target="_blank">Inside Cisco</a></li>
+<li><a href="http://video.cisco.com/#category/videos/products" target="_blank">Products</a></li>
+</ul>
+<ul>
+<li><a href="http://video.cisco.com/#category/videos/service-provider" target="_blank">Service Provider</a></li>
+<li><a href="http://video.cisco.com/#category/videos/services" target="_blank">Services</a></li>
+<li><a href="http://video.cisco.com/#category/videos/technology-trends" target="_blank">Technology Trends</a></li>
+<li><a href="http://video.cisco.com/#category/videos/techwisetv" target="_blank">TechWiseTV</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div> <!-- end .ffoot-col -->
+<div class="ffoot-col last-col">
+<div class="ffoot-block">
+<h3><a href="//www.cisco.com/c/en/us/about.html">About Cisco</a></h3>
+<ul>
+<li><a href="http://investor.cisco.com/">Investor Relations</a></li>
+<li><a href="http://csr.cisco.com/" target="_blank">Corporate Social Responsibility</a></li>
+<li><a href="http://csr.cisco.com/pages/environment" target="_blank">Environmental Sustainability</a></li>
+<li><a href="http://www.cisco.com/c/en/us/about/trust-transparency-center/overview.html">Trust and Transparency Center</a></li>
+<li><a href="//www.cisco.com/c/m/en_us/never-better/index.html?CAMPAIGN=NBT-00+NBABT&amp;COUNTRY_SITE=us&amp;POSITION=link&amp;REFERRING_SITE=cisco.com&amp;CREATIVE=fat+footer+nbabt+text">There's Never Been A Better Time</a></li>
+<li><a href="http://weare.cisco.com">Our People</a></li>
+</ul>
+</div>
+<div class="ffoot-block">
+<h3><a href="http://www.cisco.com/c/en/us/about/careers.html">Careers</a></h3>
+<ul>
+<li><a href="http://jobs.cisco.com/?utm_source=careersite&amp;utm_campaign=CDC_MainFooter" target="_blank">Search Jobs</a></li>
+<li><a href="http://www.cisco.com/c/en/us/about/careers/life-at-cisco.html">Life at Cisco</a></li>
+</ul>
+</div>
+<div class="ffoot-block">
+<h3>Programs</h3>
+<ul>
+<li><a href="//www.cisco.com/web/communities/vip/index.html">Cisco Designated VIP Program</a></li>
+<li><a href="http://www.cisco.com/c/en/us/solutions/cisco-powered/overview.html">Cisco Powered</a></li>
+<li><a href="http://www.cisco.com/web/ciscocapital/americas/us/index.html">Financing Options</a></li>
+</ul>
+</div>
+</div> <!-- end .ffoot-col .last-col -->
+</div> <!-- end .ffoot -->
+</div> <!-- end #ff -->
+<script>cdc.ff.init();</script>
+<!-- END MasterBrand FatFooter SSI (generic plus hubs) -->
+<!-- End fat footer include: /raw/cisco/web/siteassets/fatfooter.html -->
+<script>cdcPageTimers.endOfContent=new Date();</script>
+<a name="pagefooter"></a>
+<div id="framework-footer">
+<div id="footer-nav">
+<a href="/cisco/web/siteassets/contacts/ ">Contacts</a> |
+		<a href="https://secure.opinionlab.com/ccc01/o.asp?id=jBjOhqOJ">Feedback</a> |
+		<a href="/web/help/">Help</a> 
+        
+		| <a href="/web/siteassets/sitemap/index.html">Site Map</a>
+</div>
+<div id="footer-legal"> | <a href="/web/siteassets/legal/terms_condition.html">Terms &amp; Conditions</a> | <a href="/web/siteassets/legal/privacy_full.html">Privacy Statement</a> | <a href="/web/siteassets/legal/privacy_full.html#cookies">Cookie Policy</a> | <a href="/web/siteassets/legal/trademark.html">Trademarks</a></div>
+</div>
+</div><!-- end #mb-w1 -->
+</div><!-- end #mb -->
+<!--[if IE]></div><![endif]-->
+<script>cdcPageTimers.bottomOfBody = new Date();</script>
+</body>
+</html>
+<!-- HTML COMMENTS SECTION
+      software1\node01\WebSphere_Portal
+prod1-05
+
+JAMon Label=PageRenderMonitor, Units=ms.: (LastValue=90.0, Hits=200382.0, Avg=859.5297930951882, Total=1.72234299E8, Min=0.0, Max=78043.0, Active=0.0, Avg Active=1.4816450579393359, Max Active=26.0, First Access=Wed Sep 21 16:13:44 PDT 2016, Last Access=Tue Sep 27 17:30:03 PDT 2016) 
+-->
+ageTableContainer")
+																								.trigger(
+																										"sorton",
+																										[ sorting ]);
+																					}
+																					return true;
+																				});
+																// Added for hover overlay popup   						
+																$(
+																		"#imageRhSide .overlay_img")
+																		.getImageInfo();
+																var certObj = $('.cert_img');
+																if (certObj != null) {
+																	$(
+																			"#sdpridiv .cert_img")
+																			.showCertTooltip();
+																	$(
+																			'.cert_img')
+																			.css(
+																					"width",
+																					"auto");
+																	$(
+																			'.cert_img')
+																			.css(
+																					"height",
+																					"auto");
+																}
+																/** Added for SDSP S3 Integration */
+																var suggestObj = $('.suggest_img');
+																if (suggestObj != null) {
+																	$(
+																			"#sdpridiv .suggest_img")
+																			.showCertTooltip();
+																}
+																// Added for tree node selection
+																$(".treeNode a")
+																		.click(
+																				function() {
+																					jQuery(
+																							'.nodeSel')
+																							.removeClass(
+																									'nodeSel');
+																					jQuery(
+																							this)
+																							.addClass(
+																									'nodeSel');
+																					var eid = jQuery(
+																							this)
+																							.attr(
+																									"id");
+																					//alert('eid'+eid);
+																					if (eid != null
+																							&& eid != 'undefined'
+																							&& eid
+																									.indexOf("smdfTree") != -1) {
+																						var relVer = this.innerHTML;
+																						//alert('updateBCRelease relVer'+relVer);
+																						updateBCRelease(relVer);
+
+																						if (relVer != null
+																								&& relVer != "") {
+																							var strArr = new Array(
+																									"(ED)",
+																									"(MD)",
+																									"(GD)",
+																									"(LD)",
+																									"(DF)");
+																							for (i = 0; i < strArr.length; i++) {
+																								relVer = relVer
+																										.replace(
+																												strArr[i],
+																												"");
+																								relVer = jQuery
+																										.trim(relVer);
+																							}
+																							//updateReleaseNotes(relVer);
+																						}
+																					}
+																				});
+																			showAddDev();	
+															});
+											loadRNR(pv_mdfid_i, pv_mto_i);
+											
+										</script>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="ptl-content-sdsImage" id="ptl-contractwarning-div-id" style="display:none;height:135px;padding-top:10px;border:none;border-top:1px solid #cccccc;">
+<div class="csWrapper">
+<div class="csDashboard" style="padding-top: 0px;">
+<table><tr><td width="40px"><img alt="Error" class="error" src="/web/fw/softwareportal/images/alert_critical_2000_32.png"/></td><td> To Download this software, you must have a valid service contract associated to your Cisco.com profile.</td></tr><tr><td> </td><td>If you do not have a service contract you can get one through:<ul style="padding-bottom: 0px; padding-left: 10px; list-style-type: disc; list-style-position: inside;"><p style="margin-left: 40px;"></p><li>Your Cisco Account Team if you have a direct purchase agreement with Cisco</li><p style="margin-left: 40px;"></p><li>Your Cisco Partner or Reseller</li></ul></td></tr><tr><td>  </td><td>Once you have the service contract you must associate your service contract to your Cisco.com user ID with <a href="https://tools.cisco.com/RPF/profile/edit_entitlement.do?Tab=3">Profile Manager</a></td></tr><tr><td colspan="2"> </td></tr></table>;
+						</div>
+</div>
+</div>
+<div class="ptl-content-sdsImage" id="ptl-loginwarning-div-id" style="display:none;height:140px;padding-top:10px;border:none;border-top:1px solid #cccccc;">
+<div class="csWrapper">
+<div class="csDashboard" style="padding-top: 0px;">
+<table><tr><td width="40px"><img alt="Error" class="error" src="/web/fw/softwareportal/images/alert_critical_2000_32.png"/></td><td>To Download this software, you must <a href="javascript:swc.sdsp.download.loginAndComeBack();">Log In</a> with your Cisco.com user ID.</td></tr><tr><td colspan="2"> </td></tr></table>;
+						</div>
+</div>
+</div>
+<div class="ptl-content-sdsImage" id="ptl-logincontractwarning-div-id" style="display:none;height:200px;padding-top:10px;border:none;border-top:1px solid #cccccc;">
+<div class="csWrapper">
+<div class="csDashboard" style="padding-top: 0px;">
+<table><tr><td width="40px"><img alt="Error" class="error" src="/web/fw/softwareportal/images/alert_critical_2000_32.png"/></td><td> To Download this software, you must <a href="javascript:swc.sdsp.download.loginAndComeBack();">Log In</a> and have a valid service contract associated to your Cisco.com profile.</td></tr><tr><td> </td><td>If you do not have a service contract you can get one through:<ul style="padding-bottom: 0px; padding-left: 10px; list-style-type: disc; list-style-position: inside;"><p style="margin-left: 40px;"></p><li>Your Cisco Account Team if you have a direct purchase agreement with Cisco</li><p style="margin-left: 40px;"></p><li>Your Cisco Partner or Reseller</li></ul></td></tr><tr><td>  </td><td>Once you have the service contract you must associate your service contract to your Cisco.com user ID with <a href="https://tools.cisco.com/RPF/profile/edit_entitlement.do?Tab=3">Profile Manager</a></td></tr><tr><td colspan="2"> </td></tr></table>;
+						</div>
+</div>
+</div>
+<div id="ptl-rnp-enf-message" style="display:none;">
+<table><tr><td width="40px"><img alt="Error" class="error" src="/web/fw/softwareportal/images/alert_critical_2000_32.png"/></td><td> Cisco service contract information indicates you are not authorized to download software for the following product(s):</td></tr><tr><td> </td><td><b>2951 Integrated Services Router</b></td></tr><tr><td> </td><td>If you are downloading from the Cart, please remove software for the product(s) listed above to proceed with other software downloads.</td></tr><tr><td>  </td><td>Or, if you feel this message is in error, please:<ol style="margin-left:2em;"><li>Email <a href="mailto:ent-dl@cisco.com">technical support</a> for 24x7 assistance. To expedite your request, please include the following information:<ul style="list-style-type:none"><li>User ID (Cisco.com ID used to download software)</li><li>Contact Name</li><li>Company Name</li><li>Contract Number</li><li>Product ID</li><li>Desired Software Release or File Name</li><li>Please include a screen shot of this page</li></ul><li>Contact your Cisco representative, Partner or Reseller to ensure product(s) listed above are covered on a service contract that is associated to your Cisco.com profile. The <a href="http://tools.cisco.com/WWChannels/LOCATR/openBasicSearch.do" target="_blank">Partner Locator</a> link may assist in locating your nearest partner.</li><li>You can add the service contracts for these products to your profile using the Cisco <a href="http://www.cisco.com/web/Downloads/SDS/unentitled_instructions.html" target="_blank">Profile Manager</a>, or have your service administrator do this for you.</li><ol></ol></li></ol></td></tr><tr><td colspan="2"> </td></tr></table>
+</div>
+</div>
+</div>
+</div>
+</input></div>
+<script type="text/javascript">
+				msgLoginURL = window.location.href;		
+				msgLoginURL = msgLoginURL.replace("/download/release.html","/download/cart.html");	
+			 </script>
+<script type="text/javascript">//showContractMsg(false);</script>
+<script src="https://www.static-cisco.com/web/fw/softwareportal/js/apollorelease.js" type="text/javascript"></script>
+<script src="https://www.static-cisco.com/web/fw/softwareportal/js/K9Form.js" type="text/javascript"></script>
+<form action="https://swds.cisco.com/cgi-bin/sfp/specialpub.cgi" id="publishForm" method="post" name="publishForm">
+<input name="file" type="hidden" value=""> <input name="crypto" type="hidden" value=""> <input name="menu" type="hidden" value="step3"> <input name="number_upload" type="hidden" value="1"> <input name="ProductType" type="hidden" value="Other">
+</input></input></input></input></input></form>
+</link></link></link></link></link></link></link></link></link></link></link></link></div>
+</td>
+</tr>
+</table>
+<!-- Begin fat footer include: /raw/cisco/web/siteassets/fatfooter.html -->
+<!-- BEGIN MasterBrand FatFooter SSI (generic), $Revision: 1.2 $ -->
+<div id="ff">
+<div class="ffoot clearfix">
+<div class="ffoot-col">
+<div class="ffoot-block">
+<h3><a href="//www.cisco.com/c/en/us/solutions/index.html">Solutions for:</a></h3>
+<ul>
+<li><a href="//www.cisco.com/c/en/us/solutions/small-business.html">Small Business</a></li>
+<li><a href="//www.cisco.com/c/en/us/solutions/midsize/overview.html">Midsize Business</a></li>
+<li><a href="//www.cisco.com/c/en/us/solutions/service-provider/index.html">Service Provider</a></li>
+</ul>
+</div>
+<div class="ffoot-menu">
+<h3><a href="//www.cisco.com/c/en/us/solutions/industries.html">Industries</a></h3>
+<div class="ffoot-menucontainer">
+<div class="ffoot-menucontent" id="industriesmenu">
+<ul>
+<li><a href="/content/en/us/solutions/industries/automotive.html">Automotive</a></li>
+<li><a href="/content/en/us/solutions/industries/consumer-packaged-goods.html">Consumer Packaged Goods</a></li>
+<li><a href="/content/en/us/solutions/industries/education.html">Education</a></li>
+<li><a href="/content/en/us/solutions/industries/energy.html">Energy</a></li>
+<li><a href="/content/en/us/solutions/industries/financial-services.html">Financial Services</a></li>
+<li><a href="/content/en/us/solutions/industries/government.html">Government</a></li>
+<li><a href="/content/en/us/solutions/industries/healthcare.html">Healthcare</a></li>
+<li><a href="/content/en/us/solutions/industries/hospitality.html">Hospitality</a></li>
+<li><a href="/content/en/us/solutions/industries/life-sciences.html">Life Sciences</a></li>
+</ul>
+<ul>
+<li><a href="/content/en/us/solutions/industries/manufacturing.html">Manufacturing</a></li>
+<li><a href="/content/en/us/solutions/industries/materials-mining.html">Materials and Mining</a></li>
+<li><a href="/content/en/us/solutions/industries/public-sector.html">Public Sector</a></li>
+<li><a href="/content/en/us/solutions/industries/retail.html">Retail</a></li>
+<li><a href="/content/en/us/solutions/industries/smart-connected-communities.html">Smart+Connected Communities</a></li>
+<li><a href="/content/en/us/solutions/industries/sports-entertainment.html">Sports and Entertainment</a></li>
+<li><a href="/content/en/us/solutions/industries/transportation.html">Transportation</a></li>
+<li><a href="/content/en/us/solutions/industries/workplace-transformation.html">Workspace Transformation</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="ffoot-block">
+<h3><a href="/cisco/web/siteassets/contacts/index.html">Contacts</a></h3>
+<ul>
+<li><a href="/cisco/web/siteassets/contacts/index.html">Contact Cisco</a></li>
+<li><a href="http://www.cisco.com/c/en/us/solutions/partner-ecosystem.html">Meet our Partners</a></li>
+<li><a href="http://tools.cisco.com/WWChannels/LOCATR/openBasicSearch.do">Find a Reseller</a></li>
+</ul>
+</div>
+</div> <!-- end .ffoot-col -->
+<div class="ffoot-col">
+<div class="ffoot-block">
+<h3><a href="https://newsroom.cisco.com/">News &amp; Alerts</a></h3>
+<ul>
+<li><a href="https://newsroom.cisco.com/">Newsroom</a></li>
+<li><a href="http://blogs.cisco.com/">Blogs</a></li>
+<li><a href="//www.cisco.com/c/en/us/support/web/tsd-products-field-notice-summary.html">Field Notices</a></li>
+<li><a href="http://tools.cisco.com/security/center/publicationListing.x">Security Advisories</a></li>
+</ul>
+</div>
+<div class="ffoot-block">
+<h3><a href="/content/en/us/solutions/technology-trends.html">Technology Trends</a></h3>
+<ul>
+<li><a href="/content/en/us/solutions/cloud/overview.html">Cloud</a></li>
+<li><a href="/content/en/us/solutions/internet-of-things/overview.html">Internet of Things (IoT)</a></li>
+<li><a href="/content/en/us/solutions/software-defined-networking/overview.html">Software Defined Networking (SDN)</a></li>
+</ul>
+</div>
+</div> <!-- end .ffoot-col -->
+<div class="ffoot-col">
+<div class="ffoot-block">
+<h3><a href="http://www.cisco.com/c/en/us/support/index.html">Support</a></h3>
+<ul>
+<li><a href="/cisco/pub/software/portal/select.html?i=!ch">Downloads</a></li>
+<li><a href="/cisco/web/psa/default.html">Documentation</a></li>
+</ul>
+</div>
+<div class="ffoot-block">
+<h3><a href="https://communities.cisco.com/welcome">Communities</a></h3>
+<ul>
+<li><a href="https://www.myciscocommunity.com/community/technology/collaboration">Collaboration</a></li>
+<li><a href="http://developer.cisco.com/">DevNet</a></li>
+<li><a href="https://learningnetwork.cisco.com/index.jspa?ciscoHome=true">Learning Network</a></li>
+<li><a href="https://supportforums.cisco.com/index.jspa">Support Community</a></li>
+</ul>
+</div>
+<div class="ffoot-block">
+<div class="ffoot-menu">
+<h3><a href="http://video.cisco.com" target="_blank">Video Portal</a></h3>
+<div class="ffoot-menucontainer">
+<div class="ffoot-menucontent" id="videomenu">
+<ul>
+<li><a href="http://video.cisco.com/#category/videos/certifications" target="_blank">Certifications</a></li>
+<li><a href="http://video.cisco.com/#category/videos/events" target="_blank">Events</a></li>
+<li><a href="http://video.cisco.com/#category/videos/industries" target="_blank">Industries</a></li>
+<li><a href="http://video.cisco.com/#category/videos/inside-cisco" target="_blank">Inside Cisco</a></li>
+<li><a href="http://video.cisco.com/#category/videos/products" target="_blank">Products</a></li>
+</ul>
+<ul>
+<li><a href="http://video.cisco.com/#category/videos/service-provider" target="_blank">Service Provider</a></li>
+<li><a href="http://video.cisco.com/#category/videos/services" target="_blank">Services</a></li>
+<li><a href="http://video.cisco.com/#category/videos/technology-trends" target="_blank">Technology Trends</a></li>
+<li><a href="http://video.cisco.com/#category/videos/techwisetv" target="_blank">TechWiseTV</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div> <!-- end .ffoot-col -->
+<div class="ffoot-col last-col">
+<div class="ffoot-block">
+<h3><a href="//www.cisco.com/c/en/us/about.html">About Cisco</a></h3>
+<ul>
+<li><a href="http://investor.cisco.com/">Investor Relations</a></li>
+<li><a href="http://csr.cisco.com/" target="_blank">Corporate Social Responsibility</a></li>
+<li><a href="http://csr.cisco.com/pages/environment" target="_blank">Environmental Sustainability</a></li>
+<li><a href="http://www.cisco.com/c/en/us/about/trust-transparency-center/overview.html">Trust and Transparency Center</a></li>
+<li><a href="//www.cisco.com/c/m/en_us/never-better/index.html?CAMPAIGN=NBT-00+NBABT&amp;COUNTRY_SITE=us&amp;POSITION=link&amp;REFERRING_SITE=cisco.com&amp;CREATIVE=fat+footer+nbabt+text">There's Never Been A Better Time</a></li>
+<li><a href="http://weare.cisco.com">Our People</a></li>
+</ul>
+</div>
+<div class="ffoot-block">
+<h3><a href="http://www.cisco.com/c/en/us/about/careers.html">Careers</a></h3>
+<ul>
+<li><a href="http://jobs.cisco.com/?utm_source=careersite&amp;utm_campaign=CDC_MainFooter" target="_blank">Search Jobs</a></li>
+<li><a href="http://www.cisco.com/c/en/us/about/careers/life-at-cisco.html">Life at Cisco</a></li>
+</ul>
+</div>
+<div class="ffoot-block">
+<h3>Programs</h3>
+<ul>
+<li><a href="//www.cisco.com/web/communities/vip/index.html">Cisco Designated VIP Program</a></li>
+<li><a href="http://www.cisco.com/c/en/us/solutions/cisco-powered/overview.html">Cisco Powered</a></li>
+<li><a href="http://www.cisco.com/web/ciscocapital/americas/us/index.html">Financing Options</a></li>
+</ul>
+</div>
+</div> <!-- end .ffoot-col .last-col -->
+</div> <!-- end .ffoot -->
+</div> <!-- end #ff -->
+<script>cdc.ff.init();</script>
+<!-- END MasterBrand FatFooter SSI (generic plus hubs) -->
+<!-- End fat footer include: /raw/cisco/web/siteassets/fatfooter.html -->
+<script>cdcPageTimers.endOfContent=new Date();</script>
+<a name="pagefooter"></a>
+<div id="framework-footer">
+<div id="footer-nav">
+<a href="/cisco/web/siteassets/contacts/ ">Contacts</a> |
+		<a href="https://secure.opinionlab.com/ccc01/o.asp?id=jBjOhqOJ">Feedback</a> |
+		<a href="/web/help/">Help</a> 
+        
+		| <a href="/web/siteassets/sitemap/index.html">Site Map</a>
+</div>
+<div id="footer-legal"> | <a href="/web/siteassets/legal/terms_condition.html">Terms &amp; Conditions</a> | <a href="/web/siteassets/legal/privacy_full.html">Privacy Statement</a> | <a href="/web/siteassets/legal/privacy_full.html#cookies">Cookie Policy</a> | <a href="/web/siteassets/legal/trademark.html">Trademarks</a></div>
+</div>
+</div><!-- end #mb-w1 -->
+</div><!-- end #mb -->
+<!--[if IE]></div><![endif]-->
+<script>cdcPageTimers.bottomOfBody = new Date();</script>
+</body>
+</html>
+<!-- HTML COMMENTS SECTION
+      software1\node01\WebSphere_Portal
+prod1-06
+
+JAMon Label=PageRenderMonitor, Units=ms.: (LastValue=110.0, Hits=199287.0, Avg=871.6760149934516, Total=1.73713698E8, Min=0.0, Max=51539.0, Active=0.0, Avg Active=1.4974835287801012, Max Active=34.0, First Access=Wed Sep 21 16:13:47 PDT 2016, Last Access=Tue Sep 27 17:28:36 PDT 2016) 
+-->
